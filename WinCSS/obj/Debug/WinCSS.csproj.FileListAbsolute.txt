@@ -1,0 +1,79 @@
+F:\91projrct\Amanat\WinCSS\bin\Debug\WinCSS.dll
+F:\91projrct\Amanat\WinCSS\bin\Debug\WinCSS.pdb
+F:\91projrct\Amanat\WinCSS\obj\Debug\ResolveAssemblyReference.cache
+F:\91projrct\Amanat\WinCSS\obj\Debug\WinCSS.CommonLable.resources
+F:\91projrct\Amanat\WinCSS\obj\Debug\GenerateResource.read.1.tlog
+F:\91projrct\Amanat\WinCSS\obj\Debug\GenerateResource.write.1.tlog
+F:\91projrct\Amanat\WinCSS\obj\Debug\WinCSS.dll
+F:\91projrct\Amanat\WinCSS\obj\Debug\WinCSS.pdb
+F:\91projrct\Amanat\WinCSS\obj\Debug\WinCSS.Properties.Resources.resources
+F:\91projrct\Amanat\WinCSS\obj\Debug\WinCSS.SaveButton.resources
+F:\AmanatCopyFromC\Amanat\WinCSS\bin\Debug\WinCSS.dll
+F:\AmanatCopyFromC\Amanat\WinCSS\bin\Debug\WinCSS.pdb
+F:\AmanatCopyFromC\Amanat\WinCSS\obj\Debug\ResolveAssemblyReference.cache
+F:\AmanatCopyFromC\Amanat\WinCSS\obj\Debug\WinCSS.CommonLable.resources
+F:\AmanatCopyFromC\Amanat\WinCSS\obj\Debug\WinCSS.Properties.Resources.resources
+F:\AmanatCopyFromC\Amanat\WinCSS\obj\Debug\WinCSS.SaveButton.resources
+F:\AmanatCopyFromC\Amanat\WinCSS\obj\Debug\GenerateResource.read.1.tlog
+F:\AmanatCopyFromC\Amanat\WinCSS\obj\Debug\GenerateResource.write.1.tlog
+F:\AmanatCopyFromC\Amanat\WinCSS\obj\Debug\WinCSS.dll
+F:\AmanatCopyFromC\Amanat\WinCSS\obj\Debug\WinCSS.pdb
+F:\AmanatCopyFromC\Amanat\WinCSS\obj\Debug\WinCSS.CancelButton.resources
+F:\AmanatCopyFromC\Amanat\WinCSS\obj\Debug\WinCSS.CommonTextBox.resources
+E:\Amir\My Project\Amanat\Narenji\Amanat\WinCSS\bin\Debug\WinCSS.dll
+E:\Amir\My Project\Amanat\Narenji\Amanat\WinCSS\bin\Debug\WinCSS.pdb
+E:\Amir\My Project\Amanat\Narenji\Amanat\WinCSS\obj\Debug\WinCSS.csprojResolveAssemblyReference.cache
+E:\Amir\My Project\Amanat\Narenji\Amanat\WinCSS\obj\Debug\WinCSS.CommonLable.resources
+E:\Amir\My Project\Amanat\Narenji\Amanat\WinCSS\obj\Debug\WinCSS.CancelButton.resources
+E:\Amir\My Project\Amanat\Narenji\Amanat\WinCSS\obj\Debug\WinCSS.CommonTextBox.resources
+E:\Amir\My Project\Amanat\Narenji\Amanat\WinCSS\obj\Debug\WinCSS.Properties.Resources.resources
+E:\Amir\My Project\Amanat\Narenji\Amanat\WinCSS\obj\Debug\WinCSS.SaveButton.resources
+E:\Amir\My Project\Amanat\Narenji\Amanat\WinCSS\obj\Debug\WinCSS.csproj.GenerateResource.Cache
+E:\Amir\My Project\Amanat\Narenji\Amanat\WinCSS\obj\Debug\WinCSS.dll
+E:\Amir\My Project\Amanat\Narenji\Amanat\WinCSS\obj\Debug\WinCSS.pdb
+F:\drive E\amir\Proj\Amanat\Narenji\2\Amanat\WinCSS\bin\Debug\WinCSS.dll
+F:\drive E\amir\Proj\Amanat\Narenji\2\Amanat\WinCSS\bin\Debug\WinCSS.pdb
+F:\drive E\amir\Proj\Amanat\Narenji\2\Amanat\WinCSS\obj\Debug\WinCSS.csprojAssemblyReference.cache
+F:\drive E\amir\Proj\Amanat\Narenji\2\Amanat\WinCSS\obj\Debug\WinCSS.CommonLable.resources
+F:\drive E\amir\Proj\Amanat\Narenji\2\Amanat\WinCSS\obj\Debug\WinCSS.CancelButton.resources
+F:\drive E\amir\Proj\Amanat\Narenji\2\Amanat\WinCSS\obj\Debug\WinCSS.CommonTextBox.resources
+F:\drive E\amir\Proj\Amanat\Narenji\2\Amanat\WinCSS\obj\Debug\WinCSS.Properties.Resources.resources
+F:\drive E\amir\Proj\Amanat\Narenji\2\Amanat\WinCSS\obj\Debug\WinCSS.SaveButton.resources
+F:\drive E\amir\Proj\Amanat\Narenji\2\Amanat\WinCSS\obj\Debug\WinCSS.csproj.GenerateResource.cache
+F:\drive E\amir\Proj\Amanat\Narenji\2\Amanat\WinCSS\obj\Debug\WinCSS.csproj.CoreCompileInputs.cache
+F:\drive E\amir\Proj\Amanat\Narenji\2\Amanat\WinCSS\obj\Debug\WinCSS.dll
+F:\drive E\amir\Proj\Amanat\Narenji\2\Amanat\WinCSS\obj\Debug\WinCSS.pdb
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\WinCSS\bin\Debug\WinCSS.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\WinCSS\bin\Debug\WinCSS.pdb
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\WinCSS\obj\Debug\WinCSS.CommonLable.resources
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\WinCSS\obj\Debug\WinCSS.CancelButton.resources
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\WinCSS\obj\Debug\WinCSS.CommonTextBox.resources
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\WinCSS\obj\Debug\WinCSS.Properties.Resources.resources
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\WinCSS\obj\Debug\WinCSS.SaveButton.resources
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\WinCSS\obj\Debug\WinCSS.csproj.GenerateResource.cache
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\WinCSS\obj\Debug\WinCSS.csproj.CoreCompileInputs.cache
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\WinCSS\obj\Debug\WinCSS.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\WinCSS\obj\Debug\WinCSS.pdb
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\WinCSS\bin\Debug\WinCSS.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\WinCSS\bin\Debug\WinCSS.pdb
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\WinCSS\obj\Debug\WinCSS.CommonLable.resources
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\WinCSS\obj\Debug\WinCSS.CancelButton.resources
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\WinCSS\obj\Debug\WinCSS.CommonTextBox.resources
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\WinCSS\obj\Debug\WinCSS.Properties.Resources.resources
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\WinCSS\obj\Debug\WinCSS.SaveButton.resources
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\WinCSS\obj\Debug\WinCSS.csproj.GenerateResource.cache
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\WinCSS\obj\Debug\WinCSS.csproj.CoreCompileInputs.cache
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\WinCSS\obj\Debug\WinCSS.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\WinCSS\obj\Debug\WinCSS.pdb
+E:\My Projects\AMANAT\ASli\WinCSS\bin\Debug\WinCSS.dll
+E:\My Projects\AMANAT\ASli\WinCSS\bin\Debug\WinCSS.pdb
+E:\My Projects\AMANAT\ASli\WinCSS\obj\Debug\WinCSS.csproj.AssemblyReference.cache
+E:\My Projects\AMANAT\ASli\WinCSS\obj\Debug\WinCSS.CommonLable.resources
+E:\My Projects\AMANAT\ASli\WinCSS\obj\Debug\WinCSS.CancelButton.resources
+E:\My Projects\AMANAT\ASli\WinCSS\obj\Debug\WinCSS.CommonTextBox.resources
+E:\My Projects\AMANAT\ASli\WinCSS\obj\Debug\WinCSS.Properties.Resources.resources
+E:\My Projects\AMANAT\ASli\WinCSS\obj\Debug\WinCSS.SaveButton.resources
+E:\My Projects\AMANAT\ASli\WinCSS\obj\Debug\WinCSS.csproj.GenerateResource.cache
+E:\My Projects\AMANAT\ASli\WinCSS\obj\Debug\WinCSS.csproj.CoreCompileInputs.cache
+E:\My Projects\AMANAT\ASli\WinCSS\obj\Debug\WinCSS.dll
+E:\My Projects\AMANAT\ASli\WinCSS\obj\Debug\WinCSS.pdb

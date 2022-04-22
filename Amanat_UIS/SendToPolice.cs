@@ -1,0 +1,127 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using KM77.BLL;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Components;
+
+namespace Amanat_UIS
+{
+    public partial class SendToPolice : Form
+    {
+        public SendToPolice()
+        {
+            InitializeComponent();
+        }
+        private void SetFormStyles()
+        {
+            customizedTheme customizedThemeObj = new customizedTheme();
+            customizedThemeObj.ReportGriedStyle(GRD_List);
+            customizedThemeObj.FormStyle(this);
+        }
+
+
+        private void SendToPolice_Load(object sender, EventArgs e)
+        {
+            SetFormStyles();
+           maskedNowDate.Text= BLLDate.getPersianDate(System.DateTime.Now,false);
+        }
+
+        private void TXT_DayCnt_Leave(object sender, EventArgs e)
+        {
+            maskedToDate.Text =BLLDate.getPersianDate(BLLDate.GetDateAfterNDays(System.DateTime.Now, -(Convert.ToInt32(TXT_DayCnt.Text))),false);
+        }
+
+        private void BTN_LIST_Click(object sender, EventArgs e)
+        {
+            DataSet ds;
+            try
+            {
+                ds = Amanat_BO.GiveAndTakes.GiveAndTake_ForSendToPolisList(BLLDate.getGregorianDate(BLLDate.ConvertRTLPDateToLTRPdate(maskedToDate.Text)),1);
+                Image myImage = global::Amanat_UIS.Properties.Resources.Delay2;
+                GRD_List.DataSource = ds.Tables[0];
+                for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
+                {
+                    GRD_List.Rows[i].Cells["Eexp_GiveBackDate"].Value = KM77.BLL.BLLDate.getPersianDate(Convert.ToDateTime(ds.Tables[0].Rows[i]["exp_GiveBackDate"]), false);
+                    GRD_List.Rows[i].Cells["EGiveDate"].Value = KM77.BLL.BLLDate.getPersianDate(Convert.ToDateTime(ds.Tables[0].Rows[i]["GiveDate"]), false);
+                }
+            }
+            catch (Exception ex)
+            {
+                Amanat_BO.SysLog.WriteInLogFile(ex.ToString());
+                MessageBox.Show("بروز خطا در انجام عملیات ");
+            }
+            
+        }
+
+        private void bTN_Send_Click(object sender, EventArgs e)
+        {
+            try
+            {//
+                Amanat_BO.GiveAndTakes.GiveAndTake_master_UodateSwndToPolice(BLLDate.getGregorianDate(BLLDate.ConvertRTLPDateToLTRPdate(maskedToDate.Text)), System.DateTime.Now, Amanat_BO.UserSettings.UserID);
+                MessageBox.Show("انفقال با موفقیت انجام شد ");
+            }
+            catch (Exception ex)
+            {
+                Amanat_BO.SysLog.WriteInLogFile(ex.ToString());
+                MessageBox.Show("بروز خطا در انجام عملیات ");
+            }
+           
+        }
+
+        private void SendToPolice_KeyDown(object sender, KeyEventArgs e)
+        {
+            Amanat_BO.Helper.KeyDownEvent(sender, e);
+            if (e.KeyCode == Keys.F1)
+            {
+                bTN_Send_Click(sender, e);
+            }
+            else  if (e.KeyCode == Keys.Control || e.KeyCode == Keys.F)
+            {
+                BTN_Print_Click(sender, e);
+            }
+        }
+
+        private void TXT_DayCnt_Validating(object sender, CancelEventArgs e)
+        {
+            if (Amanat_BO.Validating.txtNumericStringIsValid(TXT_DayCnt.Text))
+            {
+                errorProvider1.SetError(TXT_DayCnt, "مقدار صحیح را وارد کنید");
+                e.Cancel = true;
+            }
+            else errorProvider1.SetError(TXT_DayCnt, "");
+        }
+
+        private void BTN_Print_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                DataSet ds = Amanat_BO.GiveAndTakes.GiveAndTake_ForSendToPolisList(BLLDate.getGregorianDate(BLLDate.ConvertRTLPDateToLTRPdate(maskedToDate.Text)),3);
+                ds.Tables[0].Columns.Add("GDate");
+                ds.Tables[0].Columns.Add("BDate");
+                for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
+                {
+                    ds.Tables[0].Rows[i]["GDate"] = KM77.BLL.BLLDate.getPersianDate(Convert.ToDateTime(ds.Tables[0].Rows[i]["GiveDate"]), false);
+                    ds.Tables[0].Rows[i]["BDate"] = KM77.BLL.BLLDate.getPersianDate(Convert.ToDateTime(ds.Tables[0].Rows[i]["exp_GiveBackDate"]), false);
+                }
+              //  stiReportSend.Designer.Report.IsEditedInViewer = true;
+              
+                 StiDataBand SDataBand = ((StiDataBand)stiReportSend.Pages["Page1"].Components["MyData"]);
+                  //SDataBand.ComponentStyle="Style1";
+                 Amanat_BO.Helper.SetReportAppearance(stiReportSend,this);
+                Amanat_BO.Helper.Print(ds, stiReportSend);
+            }
+            catch (Exception ex)
+            {
+                Amanat_BO.SysLog.WriteInLogFile(ex.ToString());
+                MessageBox.Show("بروز خطا در انجام عملیات ");
+            }
+
+        }
+    }
+}

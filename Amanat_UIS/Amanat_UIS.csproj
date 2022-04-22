@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C15AB644-C883-471E-9E3E-6C4CD896FA74}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Amanat_UIS</RootNamespace>
+    <AssemblyName>Amanat_UIS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\amanat\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>026524AB53BF35AD492DF26F966243C81CC6A555</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Amanat_UIS_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Stimulsoft.Base, Version=2012.1.1213.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Stimulsoft.Controls, Version=2012.1.1213.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\learning\WinForm\Stimulsoft.Reports.Net.2012.02.23\Stimulsoft+Reports.Net+2012.02.23\Stimulsoft.Controls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Stimulsoft.Controls.Win, Version=2012.1.1213.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\learning\WinForm\Stimulsoft.Reports.Net.2012.02.23\Stimulsoft+Reports.Net+2012.02.23\Stimulsoft.Controls.Win.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Stimulsoft.Report, Version=2012.1.1213.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Win, Version=2012.1.1213.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\learning\WinForm\Stimulsoft.Reports.Net.2012.02.23\Stimulsoft+Reports.Net+2012.02.23\Stimulsoft.Report.Win.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2012.2.608.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.GridView, Version=2012.2.608.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Breeze, Version=2012.2.608.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Desert, Version=2012.2.608.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.HighContrastBlack, Version=2012.2.608.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.UI, Version=2012.2.608.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TelerikCommon, Version=2012.2.608.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account.designer.cs">
+      <DependentUpon>Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BackUpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackUpForm.Designer.cs">
+      <DependentUpon>BackUpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Baggage_Prices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Baggage_Prices.designer.cs">
+      <DependentUpon>Baggage_Prices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Banks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Banks.designer.cs">
+      <DependentUpon>Banks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersianRadGridLocalizationProvider.cs" />
+    <Compile Include="FishPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FishPrint.Designer.cs">
+      <DependentUpon>FishPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FishPrint_Show.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FishPrint_Show.Designer.cs">
+      <DependentUpon>FishPrint_Show.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fish_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fish_list.Designer.cs">
+      <DependentUpon>Fish_list.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grd_NewTabArrange.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="customizedTheme.cs" />
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintSetting.Designer.cs">
+      <DependentUpon>PrintSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\annual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\annual.Designer.cs">
+      <DependentUpon>annual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\DailyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\DailyReport.Designer.cs">
+      <DependentUpon>DailyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\EditList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\EditList.Designer.cs">
+      <DependentUpon>EditList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\MoneyInSafe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\MoneyInSafe.Designer.cs">
+      <DependentUpon>MoneyInSafe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\monthlyReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\monthlyReport.Designer.cs">
+      <DependentUpon>monthlyReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\PassedExpectedDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\PassedExpectedDate.Designer.cs">
+      <DependentUpon>PassedExpectedDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\ReportEbtal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportEbtal.Designer.cs">
+      <DependentUpon>ReportEbtal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\SafeOperationList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\SafeOperationList.Designer.cs">
+      <DependentUpon>SafeOperationList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\SendToPolice_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\SendToPolice_Report.Designer.cs">
+      <DependentUpon>SendToPolice_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\SystemDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\SystemDetails.Designer.cs">
+      <DependentUpon>SystemDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SafeOPerationFRM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SafeOPerationFRM.Designer.cs">
+      <DependentUpon>SafeOPerationFRM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SendToPolice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendToPolice.Designer.cs">
+      <DependentUpon>SendToPolice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sessions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sessions.Designer.cs">
+      <DependentUpon>Sessions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StyleSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StyleSetting.Designer.cs">
+      <DependentUpon>StyleSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TakeBackBaggages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakeBackBaggages.Designer.cs">
+      <DependentUpon>TakeBackBaggages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TakeBackBaggages_sabt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakeBackBaggages_sabt.Designer.cs">
+      <DependentUpon>TakeBackBaggages_sabt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TakeBaggages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakeBaggages.Designer.cs">
+      <DependentUpon>TakeBaggages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TakeBaggages_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakeBaggages_Edit.Designer.cs">
+      <DependentUpon>TakeBaggages_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TakeBaggages_Edit2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakeBaggages_Edit2.Designer.cs">
+      <DependentUpon>TakeBaggages_Edit2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tax.Designer.cs">
+      <DependentUpon>Tax.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl2.Designer.cs">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="users.Designer.cs">
+      <DependentUpon>users.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Account.resx">
+      <DependentUpon>Account.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BackUpForm.resx">
+      <DependentUpon>BackUpForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Baggage_Prices.resx">
+      <DependentUpon>Baggage_Prices.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Banks.resx">
+      <DependentUpon>Banks.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FishPrint.resx">
+      <DependentUpon>FishPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FishPrint_Show.resx">
+      <DependentUpon>FishPrint_Show.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fish_list.resx">
+      <DependentUpon>Fish_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintSetting.resx">
+      <DependentUpon>PrintSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\annual.resx">
+      <DependentUpon>annual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DailyReport.resx">
+      <DependentUpon>DailyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EditList.resx">
+      <DependentUpon>EditList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MoneyInSafe.resx">
+      <DependentUpon>MoneyInSafe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\monthlyReport.resx">
+      <DependentUpon>monthlyReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PassedExpectedDate.resx">
+      <DependentUpon>PassedExpectedDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reports\ReportEbtal.resx">
+      <DependentUpon>ReportEbtal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SafeOperationList.resx">
+      <DependentUpon>SafeOperationList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SendToPolice_Report.resx">
+      <DependentUpon>SendToPolice_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SystemDetails.resx">
+      <DependentUpon>SystemDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SafeOPerationFRM.resx">
+      <DependentUpon>SafeOPerationFRM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendToPolice.resx">
+      <DependentUpon>SendToPolice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sessions.resx">
+      <DependentUpon>Sessions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StyleSetting.resx">
+      <DependentUpon>StyleSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakeBackBaggages.resx">
+      <DependentUpon>TakeBackBaggages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakeBackBaggages_sabt.resx">
+      <DependentUpon>TakeBackBaggages_sabt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakeBaggages.resx">
+      <DependentUpon>TakeBaggages.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakeBaggages_Edit.resx">
+      <DependentUpon>TakeBaggages_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakeBaggages_Edit2.resx">
+      <DependentUpon>TakeBaggages_Edit2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tax.resx">
+      <DependentUpon>Tax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl2.resx">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="users.resx">
+      <DependentUpon>users.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Amanat_UIS_TemporaryKey.pfx" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\Debug\Amanat_UIS.exe.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow-rectangle-button-hi.png" />
+    <None Include="Resources\open1.jpg" />
+    <None Include="Resources\save2.jpg" />
+    <None Include="Resources\cut2.jpg" />
+    <None Include="Resources\copy1.jpg" />
+    <None Include="Resources\paste1.jpg" />
+    <None Include="Resources\admin2.jpg" />
+    <None Include="Resources\new3.jpg" />
+    <None Include="Resources\help2.jpg" />
+    <None Include="Resources\2.jpg" />
+    <None Include="Resources\3.jpg" />
+    <None Include="Resources\Access-icon64.png" />
+    <None Include="Resources\Access-icon24.png" />
+    <None Include="Resources\Access-icon48.png" />
+    <None Include="Resources\Access-icon32.png" />
+    <None Include="Resources\ACP_PDF%25202_file_document32.png" />
+    <Content Include="bin\Debug\Amanat_UIS.exe" />
+    <Content Include="bin\Debug\Amanat_UIS.pdb" />
+    <Content Include="Resources\1393630476_aiga_baggage_lockers.png" />
+    <Content Include="Resources\Actions-arrow-left-icon1.png" />
+    <Content Include="Resources\Actions-arrow-right-icon1.png" />
+    <Content Include="Resources\admin-icon3.png" />
+    <None Include="Resources\bankIcon.ico" />
+    <None Include="Resources\buttonIconblu.ico" />
+    <None Include="Resources\Busico.bmp" />
+    <None Include="Resources\button.jpg" />
+    <None Include="Resources\1340338314_Box_Green.ico" />
+    <None Include="Resources\Box_Green.png" />
+    <None Include="Resources\Backup.png" />
+    <Content Include="Resources\button_cancel.gif" />
+    <None Include="Resources\cash_register_32.png" />
+    <None Include="Resources\cash_register_48.png" />
+    <Content Include="Resources\content_bg.jpg" />
+    <None Include="Resources\DeleteIcon.ico" />
+    <None Include="Resources\Delay2.ico" />
+    <None Include="Resources\Expire64-64.png" />
+    <None Include="Resources\EbtalList.jpg" />
+    <None Include="Resources\EditList.png" />
+    <None Include="Resources\Excel-icon32.png" />
+    <None Include="Resources\HTML32.png" />
+    <Content Include="Resources\images10.jpg" />
+    <Content Include="Resources\images14.jpg" />
+    <None Include="Resources\images15.jpg" />
+    <Content Include="Resources\images17.jpg" />
+    <Content Include="Resources\images2.jpg" />
+    <Content Include="Resources\images3.jpg" />
+    <Content Include="Resources\images8.jpg" />
+    <Content Include="Resources\images9.jpg" />
+    <None Include="Resources\imagesCAGBKB22.jpg" />
+    <Content Include="Resources\log2.jpg" />
+    <Content Include="Resources\log3.jpg" />
+    <None Include="Resources\LogginBack.jpg" />
+    <Content Include="Resources\logout1.jpg" />
+    <Content Include="Resources\Main.png" />
+    <None Include="Resources\ok_26x26.png" />
+    <None Include="Resources\math64.png" />
+    <None Include="Resources\MS-Word-2-icon32.png" />
+    <Content Include="Resources\Police1.jpg" />
+    <Content Include="Resources\Police2.jpg" />
+    <None Include="Resources\Report.png" />
+    <Content Include="Resources\policIcon.ico" />
+    <None Include="Resources\reports_mounth.jpg" />
+    <None Include="Resources\report_year.png" />
+    <None Include="Resources\report_check.png" />
+    <None Include="Resources\preferences-system-time32.png" />
+    <None Include="Resources\PowerPoint-icon32.png" />
+    <Content Include="Resources\rubiks cube - full.png" />
+    <None Include="Resources\safebag2 - Copy.jpg" />
+    <None Include="Resources\SafeopList.jpg" />
+    <Content Include="Resources\SYSTEM APPLICATIONS.png" />
+    <None Include="Resources\Tax1.jpg" />
+    <None Include="Resources\Tax2.jpg" />
+    <None Include="Resources\Tax5.jpg" />
+    <None Include="Resources\tax3.jpg" />
+    <None Include="Resources\User-icon24.png" />
+    <Content Include="Resources\Users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Amanat_BO\Amanat_BO.csproj">
+      <Project>{8fd9a63d-820b-47bf-b5f4-85b8bcbf2fc9}</Project>
+      <Name>Amanat_BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinCSS\WinCSS.csproj">
+      <Project>{f18a805d-2a06-4fcb-b863-aacebb47ffe7}</Project>
+      <Name>WinCSS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

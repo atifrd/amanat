@@ -1,0 +1,87 @@
+F:\91Projects\Amanat_Terminal\Amanat\Amanat_BO\bin\Debug\Amanat_BO.dll
+F:\91Projects\Amanat_Terminal\Amanat\Amanat_BO\bin\Debug\Amanat_BO.pdb
+F:\91Projects\Amanat_Terminal\Amanat\Amanat_BO\bin\Debug\Common.dll
+F:\91Projects\Amanat_Terminal\Amanat\Amanat_BO\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+F:\91Projects\Amanat_Terminal\Amanat\Amanat_BO\obj\Debug\ResolveAssemblyReference.cache
+F:\91Projects\Amanat_Terminal\Amanat\Amanat_BO\obj\Debug\Amanat_BO.dll
+F:\91Projects\Amanat_Terminal\Amanat\Amanat_BO\obj\Debug\Amanat_BO.pdb
+F:\91Projects\Amanat_Terminal\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Report.Win.dll
+F:\91Projects\Amanat_Terminal\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Report.Win.xml
+F:\91Projects\Amanat_Terminal\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Controls.dll
+F:\91Projects\Amanat_Terminal\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Controls.xml
+C:\Amanat\Amanat_BO\bin\Debug\Amanat_BO.dll
+C:\Amanat\Amanat_BO\bin\Debug\Amanat_BO.pdb
+C:\Amanat\Amanat_BO\bin\Debug\Common.dll
+C:\Amanat\Amanat_BO\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Controls.dll
+C:\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Report.Win.dll
+C:\Amanat\Amanat_BO\obj\Debug\ResolveAssemblyReference.cache
+C:\Amanat\Amanat_BO\obj\Debug\Amanat_BO.dll
+C:\Amanat\Amanat_BO\obj\Debug\Amanat_BO.pdb
+F:\AmanatCopyFromC\Amanat\Amanat_BO\bin\Debug\Amanat_BO.dll
+F:\AmanatCopyFromC\Amanat\Amanat_BO\bin\Debug\Amanat_BO.pdb
+F:\AmanatCopyFromC\Amanat\Amanat_BO\bin\Debug\Common.dll
+F:\AmanatCopyFromC\Amanat\Amanat_BO\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+F:\AmanatCopyFromC\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Controls.dll
+F:\AmanatCopyFromC\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Report.Win.dll
+F:\AmanatCopyFromC\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Controls.xml
+F:\AmanatCopyFromC\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Report.Win.xml
+F:\AmanatCopyFromC\Amanat\Amanat_BO\obj\Debug\ResolveAssemblyReference.cache
+F:\AmanatCopyFromC\Amanat\Amanat_BO\obj\Debug\Amanat_BO.dll
+F:\AmanatCopyFromC\Amanat\Amanat_BO\obj\Debug\Amanat_BO.pdb
+F:\91projrct\Amanat\Amanat_BO\bin\Debug\Amanat_BO.dll
+F:\91projrct\Amanat\Amanat_BO\bin\Debug\Amanat_BO.pdb
+F:\91projrct\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Base.dll
+F:\91projrct\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Controls.Win.dll
+F:\91projrct\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Report.dll
+F:\91projrct\Amanat\Amanat_BO\obj\Debug\Amanat_BO.dll
+F:\91projrct\Amanat\Amanat_BO\obj\Debug\Amanat_BO.pdb
+F:\91projrct\Amanat\Amanat_BO\obj\Debug\Amanat_BO.csprojResolveAssemblyReference.cache
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\Amanat_BO\bin\Debug\Amanat_BO.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\Amanat_BO\bin\Debug\Amanat_BO.pdb
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\Amanat_BO\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\Amanat_BO\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\Amanat_BO\bin\Debug\Microsoft.SqlServer.Smo.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\Amanat_BO\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Base.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Controls.Win.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Report.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\Amanat_BO\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Controls.Win.xml
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\Amanat_BO\obj\Debug\Amanat_BO.csprojAssemblyReference.cache
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\Amanat_BO\obj\Debug\Amanat_BO.csproj.CoreCompileInputs.cache
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\Amanat_BO\obj\Debug\Amanat_BO.csproj.CopyComplete
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\Amanat_BO\obj\Debug\Amanat_BO.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\Amanat\Amanat_BO\obj\Debug\Amanat_BO.pdb
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\Amanat_BO\bin\Debug\Amanat_BO.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\Amanat_BO\bin\Debug\Amanat_BO.pdb
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\Amanat_BO\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\Amanat_BO\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\Amanat_BO\bin\Debug\Microsoft.SqlServer.Smo.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\Amanat_BO\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Base.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Controls.Win.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\Amanat_BO\bin\Debug\Stimulsoft.Report.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\Amanat_BO\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\Amanat_BO\obj\Debug\Amanat_BO.csproj.CoreCompileInputs.cache
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\Amanat_BO\obj\Debug\Amanat_BO.csproj.CopyComplete
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\Amanat_BO\obj\Debug\Amanat_BO.dll
+L:\Drive E\Amir\My Projects\Amanat[8909]\MAIN AMANAT\Amanat[9150]\Amanat\Amanat_BO\obj\Debug\Amanat_BO.pdb
+E:\My Projects\AMANAT\ASli\Amanat_BO\obj\Debug\Amanat_BO.csproj.AssemblyReference.cache
+E:\My Projects\AMANAT\ASli\Amanat_BO\obj\Debug\Amanat_BO.csproj.CoreCompileInputs.cache
+E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Amanat_BO.dll
+E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Amanat_BO.pdb
+E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Microsoft.SqlServer.Smo.dll
+E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
+E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Stimulsoft.Base.dll
+E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Stimulsoft.Controls.Win.dll
+E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Stimulsoft.Report.dll
+E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+E:\My Projects\AMANAT\ASli\Amanat_BO\obj\Debug\Amanat_BO.csproj.CopyComplete
+E:\My Projects\AMANAT\ASli\Amanat_BO\obj\Debug\Amanat_BO.dll
+E:\My Projects\AMANAT\ASli\Amanat_BO\obj\Debug\Amanat_BO.pdb
+E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Stimulsoft.Controls.Win.xml
