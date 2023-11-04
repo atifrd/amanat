@@ -107,7 +107,7 @@ namespace Amanat_UIS
                    Amanat_BO.UserSettings.TaxId);
                 ds.Tables[1].Merge(ds.Tables[2]);
                 Amanat_BO.Helper.SetReportAppearance(stiReportFishCustom, this);
-
+                Amanat_BO.Helper.FishMainBody_SetFont(stiReportFishCustom);
                 stiReportFishCustom.Compile();
                 stiReportFishCustom["VTextSerial"] = " سریال  " + "  " + LBL_SerialNumber.Text;
                 stiReportFishCustom["VTextName"] = "نام " + "   " + LBL_Person.Text;

@@ -145,7 +145,7 @@ namespace Amanat_UIS
                     BLLDate.getGregorianDate(masked_GiveBackDate.Text.Remove(2, 1).Remove(5, 1) + " " + masked_GiveBackTime.Text),Amanat_BO.UserSettings.TaxBurden);
                 ds.Tables[0].Merge(ds.Tables[1]);
                 Amanat_BO.Helper.SetReportAppearance(stiReportFish, this);
-               
+                Amanat_BO.Helper.FishMainBody_SetFont(stiReportFish);
                 stiReportFish.Compile();
                 stiReportFish["VTextSerial"] = " سریال  "+"  "+LBL_SerialNumber.Text;
                 stiReportFish["VTextName"] = "نام "+"   "+LBL_Person.Text;
