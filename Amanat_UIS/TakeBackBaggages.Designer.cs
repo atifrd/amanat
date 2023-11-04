@@ -56,10 +56,11 @@
             // 
             // TXT_SerialNumber
             // 
+            this.TXT_SerialNumber.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold);
             this.TXT_SerialNumber.Location = new System.Drawing.Point(17, 22);
             this.TXT_SerialNumber.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.TXT_SerialNumber.Name = "TXT_SerialNumber";
-            this.TXT_SerialNumber.Size = new System.Drawing.Size(285, 30);
+            this.TXT_SerialNumber.Size = new System.Drawing.Size(285, 38);
             this.TXT_SerialNumber.TabIndex = 0;
             this.TXT_SerialNumber.TextChanged += new System.EventHandler(this.TXT_SerialNumber_TextChanged);
             this.TXT_SerialNumber.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TXT_SerialNumber_KeyDown);
@@ -71,7 +72,7 @@
             this.LBL_Systemsession.Location = new System.Drawing.Point(0, 0);
             this.LBL_Systemsession.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.LBL_Systemsession.Name = "LBL_Systemsession";
-            this.LBL_Systemsession.Size = new System.Drawing.Size(43, 22);
+            this.LBL_Systemsession.Size = new System.Drawing.Size(54, 29);
             this.LBL_Systemsession.TabIndex = 1;
             this.LBL_Systemsession.Text = "sess";
             this.LBL_Systemsession.Visible = false;
@@ -83,7 +84,7 @@
             this.LBL_SysSessionFullName.Location = new System.Drawing.Point(27, 3);
             this.LBL_SysSessionFullName.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.LBL_SysSessionFullName.Name = "LBL_SysSessionFullName";
-            this.LBL_SysSessionFullName.Size = new System.Drawing.Size(88, 22);
+            this.LBL_SysSessionFullName.Size = new System.Drawing.Size(107, 29);
             this.LBL_SysSessionFullName.TabIndex = 1;
             this.LBL_SysSessionFullName.Text = "تعریف نشده";
             this.LBL_SysSessionFullName.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -123,7 +124,7 @@
             // 
             // TakeBackBaggages
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(438, 102);
             this.Controls.Add(this.panel1);
