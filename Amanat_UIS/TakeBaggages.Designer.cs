@@ -1,4 +1,6 @@
-﻿namespace Amanat_UIS
+﻿using System.Drawing;
+
+namespace Amanat_UIS
 {
     partial class TakeBaggages
     {
@@ -73,13 +75,6 @@
             this.BTN_Save = new WinCSS.SaveButton();
             this.LBL_Message = new System.Windows.Forms.Label();
             this.BTN_Clear = new WinCSS.CancelButton();
-            this.GRD_GiveAndTakeDetails = new grd_NewTabArrange();
-            this.col_codeKala = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.baggageName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BaggageCount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.count_Sum = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BaggagePriceID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.LBL_SerialNumber = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -101,6 +96,13 @@
             this.stiReportFish = new Stimulsoft.Report.StiReport();
             this.stiReportFishCustom = new Stimulsoft.Report.StiReport();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.GRD_GiveAndTakeDetails = new grd_NewTabArrange();
+            this.col_codeKala = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.baggageName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BaggageCount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.count_Sum = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BaggagePriceID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -112,10 +114,10 @@
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_cache)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GRD_GiveAndTakeDetails)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GRD_TaKen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GRD_GiveAndTakeDetails)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -128,7 +130,7 @@
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.RightToLeftLayout = true;
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(843, 623);
+            this.tabControl1.Size = new System.Drawing.Size(956, 623);
             this.tabControl1.TabIndex = 41;
             this.tabControl1.Click += new System.EventHandler(this.tabControl1_Click);
             // 
@@ -147,11 +149,11 @@
             this.tabPage1.Controls.Add(this.GRD_GiveAndTakeDetails);
             this.tabPage1.Controls.Add(this.LBL_SerialNumber);
             this.tabPage1.Controls.Add(this.label6);
-            this.tabPage1.Location = new System.Drawing.Point(4, 31);
+            this.tabPage1.Location = new System.Drawing.Point(4, 38);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(5);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(5);
-            this.tabPage1.Size = new System.Drawing.Size(835, 588);
+            this.tabPage1.Size = new System.Drawing.Size(948, 581);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "دریافت امانت از مشتری";
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
@@ -159,10 +161,10 @@
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.textBox2.Location = new System.Drawing.Point(643, 529);
+            this.textBox2.Location = new System.Drawing.Point(749, 529);
             this.textBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(101, 30);
+            this.textBox2.Size = new System.Drawing.Size(101, 36);
             this.textBox2.TabIndex = 83;
             this.textBox2.Visible = false;
             // 
@@ -172,7 +174,7 @@
             this.panel5.Controls.Add(this.pictureBox1);
             this.panel5.Controls.Add(this.TXT_LockerNumber);
             this.panel5.Controls.Add(this.LBL_LockerNumber);
-            this.panel5.Location = new System.Drawing.Point(4, 37);
+            this.panel5.Location = new System.Drawing.Point(12, 36);
             this.panel5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(197, 207);
@@ -195,7 +197,7 @@
             this.TXT_LockerNumber.Location = new System.Drawing.Point(11, 33);
             this.TXT_LockerNumber.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.TXT_LockerNumber.Name = "TXT_LockerNumber";
-            this.TXT_LockerNumber.Size = new System.Drawing.Size(179, 30);
+            this.TXT_LockerNumber.Size = new System.Drawing.Size(179, 36);
             this.TXT_LockerNumber.TabIndex = 60;
             this.TXT_LockerNumber.TabStop = false;
             this.TXT_LockerNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -206,7 +208,7 @@
             this.LBL_LockerNumber.Location = new System.Drawing.Point(60, 6);
             this.LBL_LockerNumber.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LBL_LockerNumber.Name = "LBL_LockerNumber";
-            this.LBL_LockerNumber.Size = new System.Drawing.Size(95, 22);
+            this.LBL_LockerNumber.Size = new System.Drawing.Size(115, 29);
             this.LBL_LockerNumber.TabIndex = 49;
             this.LBL_LockerNumber.Text = "شماره قفسه :";
             // 
@@ -224,30 +226,30 @@
             this.panel4.Controls.Add(this.maskedexp_GiveBackDate);
             this.panel4.Controls.Add(this.maskedexp_GiveBackTime);
             this.panel4.Controls.Add(this.maskedGiveTime);
-            this.panel4.Location = new System.Drawing.Point(205, 129);
+            this.panel4.Location = new System.Drawing.Point(217, 132);
             this.panel4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(626, 115);
+            this.panel4.Size = new System.Drawing.Size(720, 106);
             this.panel4.TabIndex = 2;
             this.panel4.TabStop = true;
             // 
             // LBL_Give
             // 
             this.LBL_Give.AutoSize = true;
-            this.LBL_Give.Location = new System.Drawing.Point(519, 36);
+            this.LBL_Give.Location = new System.Drawing.Point(595, 42);
             this.LBL_Give.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LBL_Give.Name = "LBL_Give";
-            this.LBL_Give.Size = new System.Drawing.Size(56, 22);
+            this.LBL_Give.Size = new System.Drawing.Size(70, 29);
             this.LBL_Give.TabIndex = 43;
             this.LBL_Give.Text = "دریافت";
             // 
             // LBL_EXPTake
             // 
             this.LBL_EXPTake.AutoSize = true;
-            this.LBL_EXPTake.Location = new System.Drawing.Point(220, 38);
+            this.LBL_EXPTake.Location = new System.Drawing.Point(296, 44);
             this.LBL_EXPTake.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LBL_EXPTake.Name = "LBL_EXPTake";
-            this.LBL_EXPTake.Size = new System.Drawing.Size(50, 22);
+            this.LBL_EXPTake.Size = new System.Drawing.Size(62, 29);
             this.LBL_EXPTake.TabIndex = 40;
             this.LBL_EXPTake.Tag = "";
             this.LBL_EXPTake.Text = "تحویل";
@@ -255,37 +257,37 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(465, 53);
+            this.label1.Location = new System.Drawing.Point(541, 59);
             this.label1.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 22);
+            this.label1.Size = new System.Drawing.Size(63, 29);
             this.label1.TabIndex = 41;
             this.label1.Text = "ساعت";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(470, 15);
+            this.label2.Location = new System.Drawing.Point(546, 21);
             this.label2.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 22);
+            this.label2.Size = new System.Drawing.Size(56, 29);
             this.label2.TabIndex = 42;
             this.label2.Text = "تاریخ";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(169, 53);
+            this.label7.Location = new System.Drawing.Point(245, 59);
             this.label7.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 22);
+            this.label7.Size = new System.Drawing.Size(63, 29);
             this.label7.TabIndex = 46;
             this.label7.Text = "ساعت";
             // 
             // pictureBox_dateTime
             // 
             this.pictureBox_dateTime.Image = global::Amanat_UIS.Properties.Resources.preferences_system_time32;
-            this.pictureBox_dateTime.Location = new System.Drawing.Point(577, 12);
+            this.pictureBox_dateTime.Location = new System.Drawing.Point(653, 18);
             this.pictureBox_dateTime.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox_dateTime.Name = "pictureBox_dateTime";
             this.pictureBox_dateTime.Size = new System.Drawing.Size(39, 37);
@@ -295,22 +297,23 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(176, 16);
+            this.label8.Location = new System.Drawing.Point(252, 22);
             this.label8.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(46, 22);
+            this.label8.Size = new System.Drawing.Size(56, 29);
             this.label8.TabIndex = 47;
             this.label8.Text = "تاریخ";
             // 
             // maskedGiveDate
             // 
             this.maskedGiveDate.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.maskedGiveDate.Location = new System.Drawing.Point(327, 15);
+            this.maskedGiveDate.Font = new System.Drawing.Font("Times New Roman", 17F);
+            this.maskedGiveDate.Location = new System.Drawing.Point(381, 21);
             this.maskedGiveDate.Margin = new System.Windows.Forms.Padding(5);
             this.maskedGiveDate.Mask = "00 /00 /1000";
             this.maskedGiveDate.Name = "maskedGiveDate";
             this.maskedGiveDate.ReadOnly = true;
-            this.maskedGiveDate.Size = new System.Drawing.Size(132, 30);
+            this.maskedGiveDate.Size = new System.Drawing.Size(154, 40);
             this.maskedGiveDate.TabIndex = 61;
             this.maskedGiveDate.TabStop = false;
             this.maskedGiveDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -318,12 +321,13 @@
             // maskedexp_GiveBackDate
             // 
             this.maskedexp_GiveBackDate.BackColor = System.Drawing.Color.White;
+            this.maskedexp_GiveBackDate.Font = new System.Drawing.Font("Times New Roman", 17F);
             this.maskedexp_GiveBackDate.ForeColor = System.Drawing.Color.Black;
-            this.maskedexp_GiveBackDate.Location = new System.Drawing.Point(31, 16);
+            this.maskedexp_GiveBackDate.Location = new System.Drawing.Point(85, 22);
             this.maskedexp_GiveBackDate.Margin = new System.Windows.Forms.Padding(5);
             this.maskedexp_GiveBackDate.Mask = "00 /00 /1000";
             this.maskedexp_GiveBackDate.Name = "maskedexp_GiveBackDate";
-            this.maskedexp_GiveBackDate.Size = new System.Drawing.Size(133, 30);
+            this.maskedexp_GiveBackDate.Size = new System.Drawing.Size(155, 40);
             this.maskedexp_GiveBackDate.TabIndex = 2;
             this.maskedexp_GiveBackDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.maskedexp_GiveBackDate.Enter += new System.EventHandler(this.maskedexp_GiveBackDate_Enter);
@@ -333,13 +337,14 @@
             // maskedexp_GiveBackTime
             // 
             this.maskedexp_GiveBackTime.BackColor = System.Drawing.Color.White;
+            this.maskedexp_GiveBackTime.Font = new System.Drawing.Font("Times New Roman", 17F);
             this.maskedexp_GiveBackTime.ForeColor = System.Drawing.Color.Black;
-            this.maskedexp_GiveBackTime.Location = new System.Drawing.Point(31, 53);
+            this.maskedexp_GiveBackTime.Location = new System.Drawing.Point(85, 59);
             this.maskedexp_GiveBackTime.Margin = new System.Windows.Forms.Padding(5);
             this.maskedexp_GiveBackTime.Mask = "00:00";
             this.maskedexp_GiveBackTime.Name = "maskedexp_GiveBackTime";
             this.maskedexp_GiveBackTime.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.maskedexp_GiveBackTime.Size = new System.Drawing.Size(133, 30);
+            this.maskedexp_GiveBackTime.Size = new System.Drawing.Size(155, 40);
             this.maskedexp_GiveBackTime.TabIndex = 3;
             this.maskedexp_GiveBackTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.maskedexp_GiveBackTime.ValidatingType = typeof(System.DateTime);
@@ -349,13 +354,14 @@
             // maskedGiveTime
             // 
             this.maskedGiveTime.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.maskedGiveTime.Location = new System.Drawing.Point(327, 53);
+            this.maskedGiveTime.Font = new System.Drawing.Font("Times New Roman", 17F);
+            this.maskedGiveTime.Location = new System.Drawing.Point(381, 59);
             this.maskedGiveTime.Margin = new System.Windows.Forms.Padding(5);
             this.maskedGiveTime.Mask = "00:00";
             this.maskedGiveTime.Name = "maskedGiveTime";
             this.maskedGiveTime.ReadOnly = true;
             this.maskedGiveTime.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.maskedGiveTime.Size = new System.Drawing.Size(132, 30);
+            this.maskedGiveTime.Size = new System.Drawing.Size(154, 40);
             this.maskedGiveTime.TabIndex = 62;
             this.maskedGiveTime.TabStop = false;
             this.maskedGiveTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -368,17 +374,17 @@
             this.panel3.Controls.Add(this.TXT_Person);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.LBL_Person);
-            this.panel3.Location = new System.Drawing.Point(205, 37);
+            this.panel3.Location = new System.Drawing.Point(217, 40);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(626, 88);
+            this.panel3.Size = new System.Drawing.Size(720, 88);
             this.panel3.TabIndex = 0;
             this.panel3.TabStop = true;
             // 
             // pictureBox_Info
             // 
             this.pictureBox_Info.Image = global::Amanat_UIS.Properties.Resources.User_icon24;
-            this.pictureBox_Info.Location = new System.Drawing.Point(584, 9);
+            this.pictureBox_Info.Location = new System.Drawing.Point(661, 9);
             this.pictureBox_Info.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox_Info.Name = "pictureBox_Info";
             this.pictureBox_Info.Size = new System.Drawing.Size(29, 28);
@@ -389,40 +395,40 @@
             // 
             this.TXT_Tell.BackColor = System.Drawing.Color.LightBlue;
             this.TXT_Tell.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.TXT_Tell.Location = new System.Drawing.Point(285, 44);
+            this.TXT_Tell.Location = new System.Drawing.Point(362, 44);
             this.TXT_Tell.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.TXT_Tell.Name = "TXT_Tell";
-            this.TXT_Tell.Size = new System.Drawing.Size(242, 30);
+            this.TXT_Tell.Size = new System.Drawing.Size(242, 36);
             this.TXT_Tell.TabIndex = 1;
             // 
             // TXT_Person
             // 
             this.TXT_Person.BackColor = System.Drawing.Color.LightBlue;
             this.TXT_Person.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.TXT_Person.Location = new System.Drawing.Point(110, 9);
+            this.TXT_Person.Location = new System.Drawing.Point(187, 9);
             this.TXT_Person.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.TXT_Person.Name = "TXT_Person";
-            this.TXT_Person.Size = new System.Drawing.Size(417, 30);
+            this.TXT_Person.Size = new System.Drawing.Size(417, 36);
             this.TXT_Person.TabIndex = 0;
             this.TXT_Person.Validating += new System.ComponentModel.CancelEventHandler(this.TXT_Person_Validating);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(530, 50);
+            this.label5.Location = new System.Drawing.Point(607, 50);
             this.label5.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 22);
+            this.label5.Size = new System.Drawing.Size(56, 29);
             this.label5.TabIndex = 67;
             this.label5.Text = "تلفن :";
             // 
             // LBL_Person
             // 
             this.LBL_Person.AutoSize = true;
-            this.LBL_Person.Location = new System.Drawing.Point(537, 15);
+            this.LBL_Person.Location = new System.Drawing.Point(614, 15);
             this.LBL_Person.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LBL_Person.Name = "LBL_Person";
-            this.LBL_Person.Size = new System.Drawing.Size(38, 22);
+            this.LBL_Person.Size = new System.Drawing.Size(45, 29);
             this.LBL_Person.TabIndex = 44;
             this.LBL_Person.Text = "نام :";
             // 
@@ -433,10 +439,10 @@
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label10);
             this.panel2.Controls.Add(this.TXT_M_FSum_kasr);
-            this.panel2.Location = new System.Drawing.Point(648, 448);
+            this.panel2.Location = new System.Drawing.Point(698, 448);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(178, 72);
+            this.panel2.Size = new System.Drawing.Size(234, 72);
             this.panel2.TabIndex = 5;
             this.panel2.TabStop = true;
             // 
@@ -447,7 +453,7 @@
             this.TXT_M_FSum_Ezafe.Location = new System.Drawing.Point(2, 36);
             this.TXT_M_FSum_Ezafe.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.TXT_M_FSum_Ezafe.Name = "TXT_M_FSum_Ezafe";
-            this.TXT_M_FSum_Ezafe.Size = new System.Drawing.Size(120, 30);
+            this.TXT_M_FSum_Ezafe.Size = new System.Drawing.Size(148, 36);
             this.TXT_M_FSum_Ezafe.TabIndex = 6;
             this.TXT_M_FSum_Ezafe.Text = "0";
             this.TXT_M_FSum_Ezafe.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -457,20 +463,20 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(131, 6);
+            this.label9.Location = new System.Drawing.Point(172, 3);
             this.label9.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(39, 22);
+            this.label9.Size = new System.Drawing.Size(48, 29);
             this.label9.TabIndex = 68;
             this.label9.Text = "کسر";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(123, 38);
+            this.label10.Location = new System.Drawing.Point(164, 35);
             this.label10.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(49, 22);
+            this.label10.Size = new System.Drawing.Size(61, 29);
             this.label10.TabIndex = 69;
             this.label10.Text = "اضافه";
             // 
@@ -481,7 +487,7 @@
             this.TXT_M_FSum_kasr.Location = new System.Drawing.Point(2, 3);
             this.TXT_M_FSum_kasr.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.TXT_M_FSum_kasr.Name = "TXT_M_FSum_kasr";
-            this.TXT_M_FSum_kasr.Size = new System.Drawing.Size(120, 30);
+            this.TXT_M_FSum_kasr.Size = new System.Drawing.Size(148, 36);
             this.TXT_M_FSum_kasr.TabIndex = 5;
             this.TXT_M_FSum_kasr.Text = "0";
             this.TXT_M_FSum_kasr.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -500,36 +506,36 @@
             this.panel1.Controls.Add(this.TXT_FSumBeforM_FSum);
             this.panel1.Controls.Add(this.TXT_SumWithoutTax);
             this.panel1.Controls.Add(this.label11);
-            this.panel1.Location = new System.Drawing.Point(276, 448);
+            this.panel1.Location = new System.Drawing.Point(278, 444);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(368, 129);
+            this.panel1.Size = new System.Drawing.Size(412, 129);
             this.panel1.TabIndex = 80;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(148, 34);
+            this.label3.Location = new System.Drawing.Point(176, 37);
             this.label3.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(162, 22);
+            this.label3.Size = new System.Drawing.Size(200, 29);
             this.label3.TabIndex = 63;
             this.label3.Text = "مالیات بر ارزش افزوده";
             // 
             // LBL_SUM
             // 
             this.LBL_SUM.AutoSize = true;
-            this.LBL_SUM.Location = new System.Drawing.Point(188, 95);
+            this.LBL_SUM.Location = new System.Drawing.Point(216, 98);
             this.LBL_SUM.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LBL_SUM.Name = "LBL_SUM";
-            this.LBL_SUM.Size = new System.Drawing.Size(122, 22);
+            this.LBL_SUM.Size = new System.Drawing.Size(151, 29);
             this.LBL_SUM.TabIndex = 51;
             this.LBL_SUM.Text = "مبلغ قابل پرداخت";
             // 
             // pictureBox_cache
             // 
             this.pictureBox_cache.Image = global::Amanat_UIS.Properties.Resources.cash_register_48;
-            this.pictureBox_cache.Location = new System.Drawing.Point(315, -2);
+            this.pictureBox_cache.Location = new System.Drawing.Point(343, 1);
             this.pictureBox_cache.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox_cache.Name = "pictureBox_cache";
             this.pictureBox_cache.Size = new System.Drawing.Size(59, 56);
@@ -539,12 +545,13 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.LightBlue;
+            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold);
             this.textBox1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.textBox1.Location = new System.Drawing.Point(4, 95);
             this.textBox1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(120, 30);
+            this.textBox1.Size = new System.Drawing.Size(142, 36);
             this.textBox1.TabIndex = 59;
             this.textBox1.TabStop = false;
             this.textBox1.Text = "0";
@@ -553,12 +560,13 @@
             // LBL_SumTax
             // 
             this.LBL_SumTax.BackColor = System.Drawing.Color.LightBlue;
+            this.LBL_SumTax.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold);
             this.LBL_SumTax.ForeColor = System.Drawing.SystemColors.WindowText;
             this.LBL_SumTax.Location = new System.Drawing.Point(4, 30);
             this.LBL_SumTax.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LBL_SumTax.Name = "LBL_SumTax";
             this.LBL_SumTax.ReadOnly = true;
-            this.LBL_SumTax.Size = new System.Drawing.Size(120, 30);
+            this.LBL_SumTax.Size = new System.Drawing.Size(142, 36);
             this.LBL_SumTax.TabIndex = 64;
             this.LBL_SumTax.TabStop = false;
             this.LBL_SumTax.Text = "0";
@@ -567,22 +575,23 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(237, 3);
+            this.label4.Location = new System.Drawing.Point(265, 6);
             this.label4.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 22);
+            this.label4.Size = new System.Drawing.Size(88, 29);
             this.label4.TabIndex = 65;
             this.label4.Text = "جمع اقلام";
             // 
             // TXT_FSumBeforM_FSum
             // 
             this.TXT_FSumBeforM_FSum.BackColor = System.Drawing.Color.LightBlue;
+            this.TXT_FSumBeforM_FSum.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold);
             this.TXT_FSumBeforM_FSum.ForeColor = System.Drawing.SystemColors.WindowText;
             this.TXT_FSumBeforM_FSum.Location = new System.Drawing.Point(4, 62);
             this.TXT_FSumBeforM_FSum.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.TXT_FSumBeforM_FSum.Name = "TXT_FSumBeforM_FSum";
             this.TXT_FSumBeforM_FSum.ReadOnly = true;
-            this.TXT_FSumBeforM_FSum.Size = new System.Drawing.Size(120, 30);
+            this.TXT_FSumBeforM_FSum.Size = new System.Drawing.Size(142, 36);
             this.TXT_FSumBeforM_FSum.TabIndex = 74;
             this.TXT_FSumBeforM_FSum.TabStop = false;
             this.TXT_FSumBeforM_FSum.Text = "0";
@@ -591,12 +600,13 @@
             // TXT_SumWithoutTax
             // 
             this.TXT_SumWithoutTax.BackColor = System.Drawing.Color.LightBlue;
+            this.TXT_SumWithoutTax.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold);
             this.TXT_SumWithoutTax.ForeColor = System.Drawing.SystemColors.WindowText;
             this.TXT_SumWithoutTax.Location = new System.Drawing.Point(4, -2);
             this.TXT_SumWithoutTax.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.TXT_SumWithoutTax.Name = "TXT_SumWithoutTax";
             this.TXT_SumWithoutTax.ReadOnly = true;
-            this.TXT_SumWithoutTax.Size = new System.Drawing.Size(120, 30);
+            this.TXT_SumWithoutTax.Size = new System.Drawing.Size(142, 36);
             this.TXT_SumWithoutTax.TabIndex = 66;
             this.TXT_SumWithoutTax.TabStop = false;
             this.TXT_SumWithoutTax.Text = "0";
@@ -605,10 +615,10 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(126, 66);
+            this.label11.Location = new System.Drawing.Point(154, 69);
             this.label11.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(187, 22);
+            this.label11.Size = new System.Drawing.Size(230, 29);
             this.label11.TabIndex = 73;
             this.label11.Text = "جمع اقلام با احتساب مالیات";
             // 
@@ -622,7 +632,7 @@
             this.BTN_Save.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BTN_Save.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_Save.ForeColor = System.Drawing.Color.Transparent;
-            this.BTN_Save.Location = new System.Drawing.Point(17, 455);
+            this.BTN_Save.Location = new System.Drawing.Point(12, 448);
             this.BTN_Save.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.BTN_Save.Name = "BTN_Save";
             this.BTN_Save.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -638,10 +648,10 @@
             // 
             this.LBL_Message.AutoSize = true;
             this.LBL_Message.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.LBL_Message.Location = new System.Drawing.Point(424, 485);
+            this.LBL_Message.Location = new System.Drawing.Point(530, 485);
             this.LBL_Message.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LBL_Message.Name = "LBL_Message";
-            this.LBL_Message.Size = new System.Drawing.Size(0, 22);
+            this.LBL_Message.Size = new System.Drawing.Size(0, 29);
             this.LBL_Message.TabIndex = 44;
             // 
             // BTN_Clear
@@ -654,7 +664,7 @@
             this.BTN_Clear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BTN_Clear.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_Clear.ForeColor = System.Drawing.Color.Transparent;
-            this.BTN_Clear.Location = new System.Drawing.Point(17, 545);
+            this.BTN_Clear.Location = new System.Drawing.Point(52, 521);
             this.BTN_Clear.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.BTN_Clear.Name = "BTN_Clear";
             this.BTN_Clear.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -664,97 +674,35 @@
             this.BTN_Clear.UseVisualStyleBackColor = true;
             this.BTN_Clear.Click += new System.EventHandler(this.BTN_Clear_Click);
             // 
-            // GRD_GiveAndTakeDetails
-            // 
-            this.GRD_GiveAndTakeDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.GRD_GiveAndTakeDetails.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.col_codeKala,
-            this.baggageName,
-            this.BaggageCount,
-            this.Price,
-            this.count_Sum,
-            this.BaggagePriceID});
-            this.GRD_GiveAndTakeDetails.Location = new System.Drawing.Point(3, 244);
-            this.GRD_GiveAndTakeDetails.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.GRD_GiveAndTakeDetails.Name = "GRD_GiveAndTakeDetails";
-            this.GRD_GiveAndTakeDetails.Size = new System.Drawing.Size(832, 195);
-            this.GRD_GiveAndTakeDetails.TabIndex = 4;
-            this.GRD_GiveAndTakeDetails.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.GRD_GiveAndTakeDetails_CellValueChanged);
-            this.GRD_GiveAndTakeDetails.UserDeletedRow += new System.Windows.Forms.DataGridViewRowEventHandler(this.GRD_GiveAndTakeDetails_UserDeletedRow);
-            this.GRD_GiveAndTakeDetails.Enter += new System.EventHandler(this.GRD_GiveAndTakeDetails_Enter);
-            this.GRD_GiveAndTakeDetails.KeyUp += new System.Windows.Forms.KeyEventHandler(this.GRD_GiveAndTakeDetails_KeyUp);
-            // 
-            // col_codeKala
-            // 
-            this.col_codeKala.DataPropertyName = "baggageCode";
-            this.col_codeKala.HeaderText = "کدکالا";
-            this.col_codeKala.Name = "col_codeKala";
-            this.col_codeKala.Width = 150;
-            // 
-            // baggageName
-            // 
-            this.baggageName.DataPropertyName = "baggageName";
-            this.baggageName.HeaderText = "شرح";
-            this.baggageName.Name = "baggageName";
-            this.baggageName.ReadOnly = true;
-            this.baggageName.Width = 200;
-            // 
-            // BaggageCount
-            // 
-            this.BaggageCount.DataPropertyName = "BaggageCount";
-            this.BaggageCount.HeaderText = "تعداد";
-            this.BaggageCount.Name = "BaggageCount";
-            // 
-            // Price
-            // 
-            this.Price.DataPropertyName = "Price";
-            this.Price.HeaderText = "مبلغ";
-            this.Price.Name = "Price";
-            this.Price.ReadOnly = true;
-            this.Price.Width = 150;
-            // 
-            // count_Sum
-            // 
-            this.count_Sum.HeaderText = "مبلغ کل";
-            this.count_Sum.Name = "count_Sum";
-            this.count_Sum.ReadOnly = true;
-            this.count_Sum.Width = 150;
-            // 
-            // BaggagePriceID
-            // 
-            this.BaggagePriceID.DataPropertyName = "BaggagePriceID";
-            this.BaggagePriceID.HeaderText = "FKBaggagePriceID";
-            this.BaggagePriceID.Name = "BaggagePriceID";
-            this.BaggagePriceID.Visible = false;
-            // 
             // LBL_SerialNumber
             // 
             this.LBL_SerialNumber.AutoSize = true;
-            this.LBL_SerialNumber.Location = new System.Drawing.Point(660, 9);
+            this.LBL_SerialNumber.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold);
+            this.LBL_SerialNumber.Location = new System.Drawing.Point(766, 9);
             this.LBL_SerialNumber.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LBL_SerialNumber.Name = "LBL_SerialNumber";
-            this.LBL_SerialNumber.Size = new System.Drawing.Size(20, 22);
+            this.LBL_SerialNumber.Size = new System.Drawing.Size(28, 31);
             this.LBL_SerialNumber.TabIndex = 48;
             this.LBL_SerialNumber.Text = "0";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(739, 8);
+            this.label6.Location = new System.Drawing.Point(845, 8);
             this.label6.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 22);
+            this.label6.Size = new System.Drawing.Size(75, 29);
             this.label6.TabIndex = 45;
             this.label6.Text = "سریال :";
             // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.GRD_TaKen);
-            this.tabPage2.Location = new System.Drawing.Point(4, 31);
+            this.tabPage2.Location = new System.Drawing.Point(4, 38);
             this.tabPage2.Margin = new System.Windows.Forms.Padding(5);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(5);
-            this.tabPage2.Size = new System.Drawing.Size(835, 588);
+            this.tabPage2.Size = new System.Drawing.Size(948, 581);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "تصحیح دریافت امانت از مشتری";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -779,7 +727,8 @@
             this.GRD_TaKen.Location = new System.Drawing.Point(5, 5);
             this.GRD_TaKen.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.GRD_TaKen.Name = "GRD_TaKen";
-            this.GRD_TaKen.Size = new System.Drawing.Size(825, 578);
+            this.GRD_TaKen.RowHeadersWidth = 51;
+            this.GRD_TaKen.Size = new System.Drawing.Size(938, 571);
             this.GRD_TaKen.TabIndex = 53;
             this.GRD_TaKen.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GRD_TaKen_CellDoubleClick);
             this.GRD_TaKen.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.GRD_TaKen_DataError);
@@ -788,79 +737,96 @@
             // 
             this.EGiveDate.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.EGiveDate.HeaderText = "تاریخ دریافت";
+            this.EGiveDate.MinimumWidth = 6;
             this.EGiveDate.Name = "EGiveDate";
-            this.EGiveDate.Width = 122;
+            this.EGiveDate.Width = 148;
             // 
             // EbaggageName
             // 
             this.EbaggageName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.EbaggageName.DataPropertyName = "baggageName";
             this.EbaggageName.HeaderText = "شرح امانت";
+            this.EbaggageName.MinimumWidth = 6;
             this.EbaggageName.Name = "EbaggageName";
-            this.EbaggageName.Width = 108;
+            this.EbaggageName.Width = 132;
             // 
             // MySum
             // 
             this.MySum.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.MySum.DataPropertyName = "MySum";
             this.MySum.HeaderText = "جمع مبلغ کل";
+            this.MySum.MinimumWidth = 6;
             this.MySum.Name = "MySum";
-            this.MySum.Width = 117;
+            this.MySum.Width = 143;
             // 
             // ESerialNumber
             // 
             this.ESerialNumber.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.ESerialNumber.DataPropertyName = "Person";
             this.ESerialNumber.HeaderText = "نام";
+            this.ESerialNumber.MinimumWidth = 6;
             this.ESerialNumber.Name = "ESerialNumber";
-            this.ESerialNumber.Width = 52;
+            this.ESerialNumber.Width = 62;
             // 
             // SerialNumber
             // 
             this.SerialNumber.DataPropertyName = "SerialNumber";
             this.SerialNumber.HeaderText = "سریال";
+            this.SerialNumber.MinimumWidth = 6;
             this.SerialNumber.Name = "SerialNumber";
             this.SerialNumber.Visible = false;
+            this.SerialNumber.Width = 125;
             // 
             // Column1
             // 
             this.Column1.DataPropertyName = "Serial";
             this.Column1.HeaderText = "سریال";
+            this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
+            this.Column1.Width = 125;
             // 
             // EBaggageCount
             // 
             this.EBaggageCount.DataPropertyName = "BaggageCount";
             this.EBaggageCount.HeaderText = "تعداد";
+            this.EBaggageCount.MinimumWidth = 6;
             this.EBaggageCount.Name = "EBaggageCount";
+            this.EBaggageCount.Width = 125;
             // 
             // Eexp_GiveBackDate
             // 
             this.Eexp_GiveBackDate.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.Eexp_GiveBackDate.HeaderText = "تاریخ تحویل مقرر";
+            this.Eexp_GiveBackDate.MinimumWidth = 6;
             this.Eexp_GiveBackDate.Name = "Eexp_GiveBackDate";
-            this.Eexp_GiveBackDate.Width = 154;
+            this.Eexp_GiveBackDate.Width = 187;
             // 
             // FkPersonId
             // 
             this.FkPersonId.DataPropertyName = "FkPersonId";
             this.FkPersonId.HeaderText = "FkPersonId";
+            this.FkPersonId.MinimumWidth = 6;
             this.FkPersonId.Name = "FkPersonId";
             this.FkPersonId.Visible = false;
+            this.FkPersonId.Width = 125;
             // 
             // EId
             // 
             this.EId.DataPropertyName = "Id";
             this.EId.HeaderText = "Id";
+            this.EId.MinimumWidth = 6;
             this.EId.Name = "EId";
             this.EId.Visible = false;
+            this.EId.Width = 125;
             // 
             // GiveAndTakeDetailsId
             // 
             this.GiveAndTakeDetailsId.DataPropertyName = "GiveAndTakeDetailsId";
             this.GiveAndTakeDetailsId.HeaderText = "GiveAndTakeDetailsId";
+            this.GiveAndTakeDetailsId.MinimumWidth = 6;
             this.GiveAndTakeDetailsId.Name = "GiveAndTakeDetailsId";
             this.GiveAndTakeDetailsId.Visible = false;
+            this.GiveAndTakeDetailsId.Width = 125;
             // 
             // LBL_Systemsession
             // 
@@ -868,7 +834,7 @@
             this.LBL_Systemsession.Location = new System.Drawing.Point(0, 0);
             this.LBL_Systemsession.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.LBL_Systemsession.Name = "LBL_Systemsession";
-            this.LBL_Systemsession.Size = new System.Drawing.Size(60, 22);
+            this.LBL_Systemsession.Size = new System.Drawing.Size(72, 29);
             this.LBL_Systemsession.TabIndex = 42;
             this.LBL_Systemsession.Text = "label3";
             this.LBL_Systemsession.Visible = false;
@@ -884,7 +850,7 @@
             this.LBL_SysSessionFullName.Location = new System.Drawing.Point(0, 0);
             this.LBL_SysSessionFullName.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.LBL_SysSessionFullName.Name = "LBL_SysSessionFullName";
-            this.LBL_SysSessionFullName.Size = new System.Drawing.Size(60, 22);
+            this.LBL_SysSessionFullName.Size = new System.Drawing.Size(72, 29);
             this.LBL_SysSessionFullName.TabIndex = 43;
             this.LBL_SysSessionFullName.Text = "label3";
             // 
@@ -934,12 +900,85 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // GRD_GiveAndTakeDetails
+            // 
+            this.GRD_GiveAndTakeDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.GRD_GiveAndTakeDetails.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.col_codeKala,
+            this.baggageName,
+            this.BaggageCount,
+            this.Price,
+            this.count_Sum,
+            this.BaggagePriceID});
+            this.GRD_GiveAndTakeDetails.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold);
+            this.GRD_GiveAndTakeDetails.Location = new System.Drawing.Point(12, 244);
+            this.GRD_GiveAndTakeDetails.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.GRD_GiveAndTakeDetails.Name = "GRD_GiveAndTakeDetails";
+            this.GRD_GiveAndTakeDetails.RowHeadersWidth = 51;
+            this.GRD_GiveAndTakeDetails.Size = new System.Drawing.Size(929, 195);
+            this.GRD_GiveAndTakeDetails.TabIndex = 4;
+            this.GRD_GiveAndTakeDetails.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.GRD_GiveAndTakeDetails_CellValueChanged);
+            this.GRD_GiveAndTakeDetails.UserDeletedRow += new System.Windows.Forms.DataGridViewRowEventHandler(this.GRD_GiveAndTakeDetails_UserDeletedRow);
+            this.GRD_GiveAndTakeDetails.Enter += new System.EventHandler(this.GRD_GiveAndTakeDetails_Enter);
+            this.GRD_GiveAndTakeDetails.KeyUp += new System.Windows.Forms.KeyEventHandler(this.GRD_GiveAndTakeDetails_KeyUp);
+            // 
+            // col_codeKala
+            // 
+            this.col_codeKala.DataPropertyName = "baggageCode";
+            this.col_codeKala.HeaderText = "کدکالا";
+            this.col_codeKala.MinimumWidth = 6;
+            this.col_codeKala.Name = "col_codeKala";
+            this.col_codeKala.Width = 150;
+            // 
+            // baggageName
+            // 
+            this.baggageName.DataPropertyName = "baggageName";
+            this.baggageName.HeaderText = "شرح";
+            this.baggageName.MinimumWidth = 6;
+            this.baggageName.Name = "baggageName";
+            this.baggageName.ReadOnly = true;
+            this.baggageName.Width = 200;
+            // 
+            // BaggageCount
+            // 
+            this.BaggageCount.DataPropertyName = "BaggageCount";
+            this.BaggageCount.HeaderText = "تعداد";
+            this.BaggageCount.MinimumWidth = 6;
+            this.BaggageCount.Name = "BaggageCount";
+            this.BaggageCount.Width = 130;
+            // 
+            // Price
+            // 
+            this.Price.DataPropertyName = "Price";
+            this.Price.HeaderText = "مبلغ";
+            this.Price.MinimumWidth = 6;
+            this.Price.Name = "Price";
+            this.Price.ReadOnly = true;
+            this.Price.Width = 160;
+            // 
+            // count_Sum
+            // 
+            this.count_Sum.HeaderText = "مبلغ کل";
+            this.count_Sum.MinimumWidth = 6;
+            this.count_Sum.Name = "count_Sum";
+            this.count_Sum.ReadOnly = true;
+            this.count_Sum.Width = 165;
+            // 
+            // BaggagePriceID
+            // 
+            this.BaggagePriceID.DataPropertyName = "BaggagePriceID";
+            this.BaggagePriceID.HeaderText = "FKBaggagePriceID";
+            this.BaggagePriceID.MinimumWidth = 6;
+            this.BaggagePriceID.Name = "BaggagePriceID";
+            this.BaggagePriceID.Visible = false;
+            this.BaggagePriceID.Width = 125;
+            // 
             // TakeBaggages
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGreen;
-            this.ClientSize = new System.Drawing.Size(843, 623);
+            this.ClientSize = new System.Drawing.Size(956, 623);
             this.Controls.Add(this.LBL_SysSessionFullName);
             this.Controls.Add(this.LBL_Systemsession);
             this.Controls.Add(this.tabControl1);
@@ -969,10 +1008,10 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_cache)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GRD_GiveAndTakeDetails)).EndInit();
             this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.GRD_TaKen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GRD_GiveAndTakeDetails)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1030,12 +1069,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn FkPersonId;
         private System.Windows.Forms.DataGridViewTextBoxColumn EId;
         private System.Windows.Forms.DataGridViewTextBoxColumn GiveAndTakeDetailsId;
-        private System.Windows.Forms.DataGridViewTextBoxColumn col_codeKala;
-        private System.Windows.Forms.DataGridViewTextBoxColumn baggageName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn BaggageCount;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Price;
-        private System.Windows.Forms.DataGridViewTextBoxColumn count_Sum;
-        private System.Windows.Forms.DataGridViewTextBoxColumn BaggagePriceID;
         private WinCSS.CommonTextBox TXT_M_FSum_Ezafe;
         private WinCSS.CommonTextBox TXT_M_FSum_kasr;
         private System.Windows.Forms.Label label10;
@@ -1053,5 +1086,11 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_codeKala;
+        private System.Windows.Forms.DataGridViewTextBoxColumn baggageName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BaggageCount;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Price;
+        private System.Windows.Forms.DataGridViewTextBoxColumn count_Sum;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BaggagePriceID;
     }
 }
