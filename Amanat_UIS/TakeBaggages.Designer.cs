@@ -124,11 +124,11 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(5);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.RightToLeftLayout = true;
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(814, 623);
+            this.tabControl1.Size = new System.Drawing.Size(843, 623);
             this.tabControl1.TabIndex = 41;
             this.tabControl1.Click += new System.EventHandler(this.tabControl1_Click);
             // 
@@ -148,10 +148,10 @@
             this.tabPage1.Controls.Add(this.LBL_SerialNumber);
             this.tabPage1.Controls.Add(this.label6);
             this.tabPage1.Location = new System.Drawing.Point(4, 31);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(5);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.tabPage1.Size = new System.Drawing.Size(806, 588);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(5);
+            this.tabPage1.Size = new System.Drawing.Size(835, 588);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "دریافت امانت از مشتری";
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
@@ -175,7 +175,7 @@
             this.panel5.Location = new System.Drawing.Point(4, 37);
             this.panel5.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(197, 153);
+            this.panel5.Size = new System.Drawing.Size(197, 207);
             this.panel5.TabIndex = 82;
             // 
             // pictureBox1
@@ -224,17 +224,17 @@
             this.panel4.Controls.Add(this.maskedexp_GiveBackDate);
             this.panel4.Controls.Add(this.maskedexp_GiveBackTime);
             this.panel4.Controls.Add(this.maskedGiveTime);
-            this.panel4.Location = new System.Drawing.Point(205, 113);
+            this.panel4.Location = new System.Drawing.Point(205, 129);
             this.panel4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(596, 77);
+            this.panel4.Size = new System.Drawing.Size(626, 115);
             this.panel4.TabIndex = 2;
             this.panel4.TabStop = true;
             // 
             // LBL_Give
             // 
             this.LBL_Give.AutoSize = true;
-            this.LBL_Give.Location = new System.Drawing.Point(499, 24);
+            this.LBL_Give.Location = new System.Drawing.Point(519, 36);
             this.LBL_Give.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LBL_Give.Name = "LBL_Give";
             this.LBL_Give.Size = new System.Drawing.Size(56, 22);
@@ -244,7 +244,7 @@
             // LBL_EXPTake
             // 
             this.LBL_EXPTake.AutoSize = true;
-            this.LBL_EXPTake.Location = new System.Drawing.Point(182, 24);
+            this.LBL_EXPTake.Location = new System.Drawing.Point(220, 38);
             this.LBL_EXPTake.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LBL_EXPTake.Name = "LBL_EXPTake";
             this.LBL_EXPTake.Size = new System.Drawing.Size(50, 22);
@@ -255,7 +255,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(445, 41);
+            this.label1.Location = new System.Drawing.Point(465, 53);
             this.label1.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(51, 22);
@@ -265,7 +265,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(450, 3);
+            this.label2.Location = new System.Drawing.Point(470, 15);
             this.label2.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 22);
@@ -275,7 +275,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(131, 39);
+            this.label7.Location = new System.Drawing.Point(169, 53);
             this.label7.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(51, 22);
@@ -285,7 +285,7 @@
             // pictureBox_dateTime
             // 
             this.pictureBox_dateTime.Image = global::Amanat_UIS.Properties.Resources.preferences_system_time32;
-            this.pictureBox_dateTime.Location = new System.Drawing.Point(557, 0);
+            this.pictureBox_dateTime.Location = new System.Drawing.Point(577, 12);
             this.pictureBox_dateTime.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox_dateTime.Name = "pictureBox_dateTime";
             this.pictureBox_dateTime.Size = new System.Drawing.Size(39, 37);
@@ -295,7 +295,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(138, 2);
+            this.label8.Location = new System.Drawing.Point(176, 16);
             this.label8.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(46, 22);
@@ -305,25 +305,27 @@
             // maskedGiveDate
             // 
             this.maskedGiveDate.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.maskedGiveDate.Location = new System.Drawing.Point(323, 3);
-            this.maskedGiveDate.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.maskedGiveDate.Location = new System.Drawing.Point(327, 15);
+            this.maskedGiveDate.Margin = new System.Windows.Forms.Padding(5);
             this.maskedGiveDate.Mask = "00 /00 /1000";
             this.maskedGiveDate.Name = "maskedGiveDate";
             this.maskedGiveDate.ReadOnly = true;
-            this.maskedGiveDate.Size = new System.Drawing.Size(116, 30);
+            this.maskedGiveDate.Size = new System.Drawing.Size(132, 30);
             this.maskedGiveDate.TabIndex = 61;
             this.maskedGiveDate.TabStop = false;
+            this.maskedGiveDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // maskedexp_GiveBackDate
             // 
             this.maskedexp_GiveBackDate.BackColor = System.Drawing.Color.White;
             this.maskedexp_GiveBackDate.ForeColor = System.Drawing.Color.Black;
-            this.maskedexp_GiveBackDate.Location = new System.Drawing.Point(10, 2);
-            this.maskedexp_GiveBackDate.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.maskedexp_GiveBackDate.Location = new System.Drawing.Point(31, 16);
+            this.maskedexp_GiveBackDate.Margin = new System.Windows.Forms.Padding(5);
             this.maskedexp_GiveBackDate.Mask = "00 /00 /1000";
             this.maskedexp_GiveBackDate.Name = "maskedexp_GiveBackDate";
-            this.maskedexp_GiveBackDate.Size = new System.Drawing.Size(116, 30);
+            this.maskedexp_GiveBackDate.Size = new System.Drawing.Size(133, 30);
             this.maskedexp_GiveBackDate.TabIndex = 2;
+            this.maskedexp_GiveBackDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.maskedexp_GiveBackDate.Enter += new System.EventHandler(this.maskedexp_GiveBackDate_Enter);
             this.maskedexp_GiveBackDate.Leave += new System.EventHandler(this.maskedexp_GiveBackDate_Leave);
             this.maskedexp_GiveBackDate.Validating += new System.ComponentModel.CancelEventHandler(this.maskedexp_GiveBackDate_Validating);
@@ -332,13 +334,14 @@
             // 
             this.maskedexp_GiveBackTime.BackColor = System.Drawing.Color.White;
             this.maskedexp_GiveBackTime.ForeColor = System.Drawing.Color.Black;
-            this.maskedexp_GiveBackTime.Location = new System.Drawing.Point(10, 39);
-            this.maskedexp_GiveBackTime.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.maskedexp_GiveBackTime.Location = new System.Drawing.Point(31, 53);
+            this.maskedexp_GiveBackTime.Margin = new System.Windows.Forms.Padding(5);
             this.maskedexp_GiveBackTime.Mask = "00:00";
             this.maskedexp_GiveBackTime.Name = "maskedexp_GiveBackTime";
             this.maskedexp_GiveBackTime.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.maskedexp_GiveBackTime.Size = new System.Drawing.Size(116, 30);
+            this.maskedexp_GiveBackTime.Size = new System.Drawing.Size(133, 30);
             this.maskedexp_GiveBackTime.TabIndex = 3;
+            this.maskedexp_GiveBackTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.maskedexp_GiveBackTime.ValidatingType = typeof(System.DateTime);
             this.maskedexp_GiveBackTime.TypeValidationCompleted += new System.Windows.Forms.TypeValidationEventHandler(this.maskedexp_GiveBackTime_TypeValidationCompleted);
             this.maskedexp_GiveBackTime.Leave += new System.EventHandler(this.maskedexp_GiveBackTime_Leave);
@@ -346,15 +349,16 @@
             // maskedGiveTime
             // 
             this.maskedGiveTime.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.maskedGiveTime.Location = new System.Drawing.Point(323, 41);
-            this.maskedGiveTime.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.maskedGiveTime.Location = new System.Drawing.Point(327, 53);
+            this.maskedGiveTime.Margin = new System.Windows.Forms.Padding(5);
             this.maskedGiveTime.Mask = "00:00";
             this.maskedGiveTime.Name = "maskedGiveTime";
             this.maskedGiveTime.ReadOnly = true;
             this.maskedGiveTime.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.maskedGiveTime.Size = new System.Drawing.Size(116, 30);
+            this.maskedGiveTime.Size = new System.Drawing.Size(132, 30);
             this.maskedGiveTime.TabIndex = 62;
             this.maskedGiveTime.TabStop = false;
+            this.maskedGiveTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // panel3
             // 
@@ -367,14 +371,14 @@
             this.panel3.Location = new System.Drawing.Point(205, 37);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(596, 71);
+            this.panel3.Size = new System.Drawing.Size(626, 88);
             this.panel3.TabIndex = 0;
             this.panel3.TabStop = true;
             // 
             // pictureBox_Info
             // 
             this.pictureBox_Info.Image = global::Amanat_UIS.Properties.Resources.User_icon24;
-            this.pictureBox_Info.Location = new System.Drawing.Point(562, 0);
+            this.pictureBox_Info.Location = new System.Drawing.Point(584, 9);
             this.pictureBox_Info.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox_Info.Name = "pictureBox_Info";
             this.pictureBox_Info.Size = new System.Drawing.Size(29, 28);
@@ -385,7 +389,7 @@
             // 
             this.TXT_Tell.BackColor = System.Drawing.Color.LightBlue;
             this.TXT_Tell.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.TXT_Tell.Location = new System.Drawing.Point(264, 35);
+            this.TXT_Tell.Location = new System.Drawing.Point(285, 44);
             this.TXT_Tell.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.TXT_Tell.Name = "TXT_Tell";
             this.TXT_Tell.Size = new System.Drawing.Size(242, 30);
@@ -395,7 +399,7 @@
             // 
             this.TXT_Person.BackColor = System.Drawing.Color.LightBlue;
             this.TXT_Person.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.TXT_Person.Location = new System.Drawing.Point(89, 2);
+            this.TXT_Person.Location = new System.Drawing.Point(110, 9);
             this.TXT_Person.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.TXT_Person.Name = "TXT_Person";
             this.TXT_Person.Size = new System.Drawing.Size(417, 30);
@@ -405,7 +409,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(508, 41);
+            this.label5.Location = new System.Drawing.Point(530, 50);
             this.label5.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(46, 22);
@@ -415,7 +419,7 @@
             // LBL_Person
             // 
             this.LBL_Person.AutoSize = true;
-            this.LBL_Person.Location = new System.Drawing.Point(515, 6);
+            this.LBL_Person.Location = new System.Drawing.Point(537, 15);
             this.LBL_Person.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LBL_Person.Name = "LBL_Person";
             this.LBL_Person.Size = new System.Drawing.Size(38, 22);
@@ -429,7 +433,7 @@
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label10);
             this.panel2.Controls.Add(this.TXT_M_FSum_kasr);
-            this.panel2.Location = new System.Drawing.Point(625, 390);
+            this.panel2.Location = new System.Drawing.Point(648, 448);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(178, 72);
@@ -496,7 +500,7 @@
             this.panel1.Controls.Add(this.TXT_FSumBeforM_FSum);
             this.panel1.Controls.Add(this.TXT_SumWithoutTax);
             this.panel1.Controls.Add(this.label11);
-            this.panel1.Location = new System.Drawing.Point(2, 390);
+            this.panel1.Location = new System.Drawing.Point(276, 448);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(368, 129);
@@ -618,11 +622,11 @@
             this.BTN_Save.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BTN_Save.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_Save.ForeColor = System.Drawing.Color.Transparent;
-            this.BTN_Save.Location = new System.Drawing.Point(428, 529);
+            this.BTN_Save.Location = new System.Drawing.Point(17, 455);
             this.BTN_Save.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.BTN_Save.Name = "BTN_Save";
             this.BTN_Save.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.BTN_Save.Size = new System.Drawing.Size(122, 40);
+            this.BTN_Save.Size = new System.Drawing.Size(230, 61);
             this.BTN_Save.TabIndex = 7;
             this.BTN_Save.Text = "ثبت";
             this.BTN_Save.UseVisualStyleBackColor = false;
@@ -650,11 +654,11 @@
             this.BTN_Clear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BTN_Clear.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_Clear.ForeColor = System.Drawing.Color.Transparent;
-            this.BTN_Clear.Location = new System.Drawing.Point(303, 529);
+            this.BTN_Clear.Location = new System.Drawing.Point(17, 545);
             this.BTN_Clear.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.BTN_Clear.Name = "BTN_Clear";
             this.BTN_Clear.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.BTN_Clear.Size = new System.Drawing.Size(122, 40);
+            this.BTN_Clear.Size = new System.Drawing.Size(104, 32);
             this.BTN_Clear.TabIndex = 8;
             this.BTN_Clear.Text = "انصراف";
             this.BTN_Clear.UseVisualStyleBackColor = true;
@@ -670,10 +674,10 @@
             this.Price,
             this.count_Sum,
             this.BaggagePriceID});
-            this.GRD_GiveAndTakeDetails.Location = new System.Drawing.Point(2, 193);
+            this.GRD_GiveAndTakeDetails.Location = new System.Drawing.Point(3, 244);
             this.GRD_GiveAndTakeDetails.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.GRD_GiveAndTakeDetails.Name = "GRD_GiveAndTakeDetails";
-            this.GRD_GiveAndTakeDetails.Size = new System.Drawing.Size(798, 195);
+            this.GRD_GiveAndTakeDetails.Size = new System.Drawing.Size(832, 195);
             this.GRD_GiveAndTakeDetails.TabIndex = 4;
             this.GRD_GiveAndTakeDetails.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.GRD_GiveAndTakeDetails_CellValueChanged);
             this.GRD_GiveAndTakeDetails.UserDeletedRow += new System.Windows.Forms.DataGridViewRowEventHandler(this.GRD_GiveAndTakeDetails_UserDeletedRow);
@@ -746,11 +750,11 @@
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.GRD_TaKen);
-            this.tabPage2.Location = new System.Drawing.Point(4, 49);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.tabPage2.Location = new System.Drawing.Point(4, 31);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(5);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.tabPage2.Size = new System.Drawing.Size(806, 555);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(5);
+            this.tabPage2.Size = new System.Drawing.Size(835, 588);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "تصحیح دریافت امانت از مشتری";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -775,7 +779,7 @@
             this.GRD_TaKen.Location = new System.Drawing.Point(5, 5);
             this.GRD_TaKen.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.GRD_TaKen.Name = "GRD_TaKen";
-            this.GRD_TaKen.Size = new System.Drawing.Size(796, 545);
+            this.GRD_TaKen.Size = new System.Drawing.Size(825, 578);
             this.GRD_TaKen.TabIndex = 53;
             this.GRD_TaKen.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GRD_TaKen_CellDoubleClick);
             this.GRD_TaKen.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.GRD_TaKen_DataError);
@@ -935,13 +939,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGreen;
-            this.ClientSize = new System.Drawing.Size(814, 623);
+            this.ClientSize = new System.Drawing.Size(843, 623);
             this.Controls.Add(this.LBL_SysSessionFullName);
             this.Controls.Add(this.LBL_Systemsession);
             this.Controls.Add(this.tabControl1);
             this.Font = new System.Drawing.Font("Times New Roman", 15F);
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "TakeBaggages";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
