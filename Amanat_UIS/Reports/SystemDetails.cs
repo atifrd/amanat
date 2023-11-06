@@ -66,6 +66,7 @@ namespace Amanat_UIS.Reports
        
         private void BtnSearch_Click(object sender, EventArgs e)
         {
+            Cursor = Cursors.WaitCursor;
             string WhereCondition = GetWhereCondition();
             try
             {
@@ -92,6 +93,10 @@ namespace Amanat_UIS.Reports
                 Amanat_BO.SysLog.WriteInLogFile(ex.ToString());
                 MessageBox.Show("بروز خطا در انجام عملیات ");
             }
+            finally
+            {
+                Cursor = Cursors.Default;
+            }
         }
 
         private void SystemDetails_KeyDown(object sender, KeyEventArgs e)
@@ -105,6 +110,7 @@ namespace Amanat_UIS.Reports
 
         private void BTN_Print_Click(object sender, EventArgs e)
         {
+            Cursor.Current = Cursors.WaitCursor;
             try
             {
                 string WhereCondition = GetWhereCondition();
@@ -126,7 +132,11 @@ namespace Amanat_UIS.Reports
                 Amanat_BO.SysLog.WriteInLogFile(ex.ToString());
                 MessageBox.Show("بروز خطا در انجام عملیات ");
             }
-            
+            finally
+            {
+                Cursor = Cursors.Default;
+            }
+
         }
 
         private void checkBoxJustBak_CheckedChanged(object sender, EventArgs e)

@@ -55,13 +55,6 @@
             this.LBL_EXPTake = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.GRD_GiveAndTakeDetails = new System.Windows.Forms.DataGridView();
-            this.col_codeKala = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.baggageName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BaggageCount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MySum = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TakeBackDelayPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GiveAndTakeDetailsId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TXT_Discount = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -69,6 +62,13 @@
             this.LBL_User = new System.Windows.Forms.Label();
             this.BTN_Print = new WinCSS.SaveButton();
             this.stiReportFishCustom = new Stimulsoft.Report.StiReport();
+            this.col_codeKala = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.baggageName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BaggageCount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MySum = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TakeBackDelayPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GiveAndTakeDetailsId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GRD_GiveAndTakeDetails)).BeginInit();
@@ -255,10 +255,11 @@
             // LBL_SerialNumber
             // 
             this.LBL_SerialNumber.AutoSize = true;
+            this.LBL_SerialNumber.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold);
             this.LBL_SerialNumber.Location = new System.Drawing.Point(795, 30);
             this.LBL_SerialNumber.Margin = new System.Windows.Forms.Padding(11, 0, 11, 0);
             this.LBL_SerialNumber.Name = "LBL_SerialNumber";
-            this.LBL_SerialNumber.Size = new System.Drawing.Size(25, 29);
+            this.LBL_SerialNumber.Size = new System.Drawing.Size(28, 31);
             this.LBL_SerialNumber.TabIndex = 70;
             this.LBL_SerialNumber.Text = "0";
             // 
@@ -374,67 +375,6 @@
             this.GRD_GiveAndTakeDetails.Size = new System.Drawing.Size(945, 164);
             this.GRD_GiveAndTakeDetails.TabIndex = 66;
             // 
-            // col_codeKala
-            // 
-            this.col_codeKala.DataPropertyName = "baggageCode";
-            this.col_codeKala.HeaderText = "کدکالا";
-            this.col_codeKala.MinimumWidth = 6;
-            this.col_codeKala.Name = "col_codeKala";
-            this.col_codeKala.Width = 125;
-            // 
-            // baggageName
-            // 
-            this.baggageName.DataPropertyName = "baggageName";
-            this.baggageName.HeaderText = "شرح";
-            this.baggageName.MinimumWidth = 6;
-            this.baggageName.Name = "baggageName";
-            this.baggageName.ReadOnly = true;
-            this.baggageName.Width = 150;
-            // 
-            // BaggageCount
-            // 
-            this.BaggageCount.DataPropertyName = "BaggageCount";
-            this.BaggageCount.HeaderText = "تعداد";
-            this.BaggageCount.MinimumWidth = 6;
-            this.BaggageCount.Name = "BaggageCount";
-            this.BaggageCount.Width = 125;
-            // 
-            // Price
-            // 
-            this.Price.DataPropertyName = "Price";
-            this.Price.HeaderText = "مبلغ";
-            this.Price.MinimumWidth = 6;
-            this.Price.Name = "Price";
-            this.Price.ReadOnly = true;
-            this.Price.Width = 150;
-            // 
-            // MySum
-            // 
-            this.MySum.DataPropertyName = "MySum";
-            this.MySum.HeaderText = "مبلغ کل";
-            this.MySum.MinimumWidth = 6;
-            this.MySum.Name = "MySum";
-            this.MySum.ReadOnly = true;
-            this.MySum.Width = 150;
-            // 
-            // TakeBackDelayPrice
-            // 
-            this.TakeBackDelayPrice.DataPropertyName = "TakeBackDelayPrice";
-            this.TakeBackDelayPrice.HeaderText = "TakeBackDelayPrice";
-            this.TakeBackDelayPrice.MinimumWidth = 6;
-            this.TakeBackDelayPrice.Name = "TakeBackDelayPrice";
-            this.TakeBackDelayPrice.Visible = false;
-            this.TakeBackDelayPrice.Width = 125;
-            // 
-            // GiveAndTakeDetailsId
-            // 
-            this.GiveAndTakeDetailsId.DataPropertyName = "GiveAndTakeDetailsId";
-            this.GiveAndTakeDetailsId.HeaderText = "GiveAndTakeDetailsId";
-            this.GiveAndTakeDetailsId.MinimumWidth = 6;
-            this.GiveAndTakeDetailsId.Name = "GiveAndTakeDetailsId";
-            this.GiveAndTakeDetailsId.Visible = false;
-            this.GiveAndTakeDetailsId.Width = 125;
-            // 
             // TXT_Discount
             // 
             this.TXT_Discount.Location = new System.Drawing.Point(713, 362);
@@ -459,7 +399,8 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(3, 362);
+            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold);
+            this.textBox2.Location = new System.Drawing.Point(10, 362);
             this.textBox2.Margin = new System.Windows.Forms.Padding(11, 10, 11, 10);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
@@ -472,7 +413,7 @@
             // LBL_SUM
             // 
             this.LBL_SUM.AutoSize = true;
-            this.LBL_SUM.Location = new System.Drawing.Point(195, 364);
+            this.LBL_SUM.Location = new System.Drawing.Point(200, 364);
             this.LBL_SUM.Margin = new System.Windows.Forms.Padding(11, 0, 11, 0);
             this.LBL_SUM.Name = "LBL_SUM";
             this.LBL_SUM.Size = new System.Drawing.Size(82, 29);
@@ -530,6 +471,67 @@
             this.stiReportFishCustom.ReportUnit = Stimulsoft.Report.StiReportUnitType.Centimeters;
             this.stiReportFishCustom.ScriptLanguage = Stimulsoft.Report.StiReportLanguageType.CSharp;
             this.stiReportFishCustom.UseProgressInThread = false;
+            // 
+            // col_codeKala
+            // 
+            this.col_codeKala.DataPropertyName = "baggageCode";
+            this.col_codeKala.HeaderText = "کدکالا";
+            this.col_codeKala.MinimumWidth = 6;
+            this.col_codeKala.Name = "col_codeKala";
+            this.col_codeKala.Width = 125;
+            // 
+            // baggageName
+            // 
+            this.baggageName.DataPropertyName = "baggageName";
+            this.baggageName.HeaderText = "شرح";
+            this.baggageName.MinimumWidth = 6;
+            this.baggageName.Name = "baggageName";
+            this.baggageName.ReadOnly = true;
+            this.baggageName.Width = 245;
+            // 
+            // BaggageCount
+            // 
+            this.BaggageCount.DataPropertyName = "BaggageCount";
+            this.BaggageCount.HeaderText = "تعداد";
+            this.BaggageCount.MinimumWidth = 6;
+            this.BaggageCount.Name = "BaggageCount";
+            this.BaggageCount.Width = 160;
+            // 
+            // Price
+            // 
+            this.Price.DataPropertyName = "Price";
+            this.Price.HeaderText = "مبلغ";
+            this.Price.MinimumWidth = 6;
+            this.Price.Name = "Price";
+            this.Price.ReadOnly = true;
+            this.Price.Width = 180;
+            // 
+            // MySum
+            // 
+            this.MySum.DataPropertyName = "MySum";
+            this.MySum.HeaderText = "مبلغ کل";
+            this.MySum.MinimumWidth = 6;
+            this.MySum.Name = "MySum";
+            this.MySum.ReadOnly = true;
+            this.MySum.Width = 180;
+            // 
+            // TakeBackDelayPrice
+            // 
+            this.TakeBackDelayPrice.DataPropertyName = "TakeBackDelayPrice";
+            this.TakeBackDelayPrice.HeaderText = "TakeBackDelayPrice";
+            this.TakeBackDelayPrice.MinimumWidth = 6;
+            this.TakeBackDelayPrice.Name = "TakeBackDelayPrice";
+            this.TakeBackDelayPrice.Visible = false;
+            this.TakeBackDelayPrice.Width = 125;
+            // 
+            // GiveAndTakeDetailsId
+            // 
+            this.GiveAndTakeDetailsId.DataPropertyName = "GiveAndTakeDetailsId";
+            this.GiveAndTakeDetailsId.HeaderText = "GiveAndTakeDetailsId";
+            this.GiveAndTakeDetailsId.MinimumWidth = 6;
+            this.GiveAndTakeDetailsId.Name = "GiveAndTakeDetailsId";
+            this.GiveAndTakeDetailsId.Visible = false;
+            this.GiveAndTakeDetailsId.Width = 125;
             // 
             // FishPrint_Show
             // 
@@ -598,6 +600,7 @@
         private WinCSS.SaveButton BTN_Print;
         private System.Windows.Forms.Label PTell;
         private System.Windows.Forms.Label label10;
+        private Stimulsoft.Report.StiReport stiReportFishCustom;
         private System.Windows.Forms.DataGridViewTextBoxColumn col_codeKala;
         private System.Windows.Forms.DataGridViewTextBoxColumn baggageName;
         private System.Windows.Forms.DataGridViewTextBoxColumn BaggageCount;
@@ -605,6 +608,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn MySum;
         private System.Windows.Forms.DataGridViewTextBoxColumn TakeBackDelayPrice;
         private System.Windows.Forms.DataGridViewTextBoxColumn GiveAndTakeDetailsId;
-        private Stimulsoft.Report.StiReport stiReportFishCustom;
     }
 }

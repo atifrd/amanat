@@ -41,6 +41,7 @@ namespace Amanat_UIS.Reports
 
         private void bTN_List_Click(object sender, EventArgs e)
         {
+            Cursor = Cursors.WaitCursor;
             DataTable dt;
             try
             {
@@ -67,11 +68,16 @@ namespace Amanat_UIS.Reports
                 Amanat_BO.SysLog.WriteInLogFile(ex.ToString());
                 MessageBox.Show("بروز خطا در انجام عملیات ");
             }
+            finally
+            {
+                Cursor = Cursors.Default;
+            }
         }
 
         private void BTN_Print_Click(object sender, EventArgs e)
         {
-             DataSet ds;
+            Cursor = Cursors.WaitCursor;
+            DataSet ds;
             
             try
             {
@@ -84,6 +90,10 @@ namespace Amanat_UIS.Reports
             {
                 Amanat_BO.SysLog.WriteInLogFile(ex.ToString());
                 MessageBox.Show("بروز خطا در انجام عملیات ");
+            }
+            finally
+            {
+                Cursor = Cursors.Default;
             }
         }
     }
