@@ -77,3 +77,14 @@ E:\My Projects\AMANAT\ASli\WinCSS\obj\Debug\WinCSS.csproj.GenerateResource.cache
 E:\My Projects\AMANAT\ASli\WinCSS\obj\Debug\WinCSS.csproj.CoreCompileInputs.cache
 E:\My Projects\AMANAT\ASli\WinCSS\obj\Debug\WinCSS.dll
 E:\My Projects\AMANAT\ASli\WinCSS\obj\Debug\WinCSS.pdb
+C:\ASli\WinCSS\bin\Debug\WinCSS.dll
+C:\ASli\WinCSS\bin\Debug\WinCSS.pdb
+C:\ASli\WinCSS\obj\Debug\WinCSS.CommonLable.resources
+C:\ASli\WinCSS\obj\Debug\WinCSS.CancelButton.resources
+C:\ASli\WinCSS\obj\Debug\WinCSS.CommonTextBox.resources
+C:\ASli\WinCSS\obj\Debug\WinCSS.Properties.Resources.resources
+C:\ASli\WinCSS\obj\Debug\WinCSS.SaveButton.resources
+C:\ASli\WinCSS\obj\Debug\WinCSS.csproj.GenerateResource.cache
+C:\ASli\WinCSS\obj\Debug\WinCSS.csproj.CoreCompileInputs.cache
+C:\ASli\WinCSS\obj\Debug\WinCSS.dll
+C:\ASli\WinCSS\obj\Debug\WinCSS.pdb

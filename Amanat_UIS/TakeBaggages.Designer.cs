@@ -36,7 +36,6 @@ namespace Amanat_UIS
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.TXT_LockerNumber = new WinCSS.CommonTextBox(this.components);
             this.LBL_LockerNumber = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -75,6 +74,13 @@ namespace Amanat_UIS
             this.BTN_Save = new WinCSS.SaveButton();
             this.LBL_Message = new System.Windows.Forms.Label();
             this.BTN_Clear = new WinCSS.CancelButton();
+            this.GRD_GiveAndTakeDetails = new grd_NewTabArrange();
+            this.col_codeKala = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.baggageName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BaggageCount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.count_Sum = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BaggagePriceID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.LBL_SerialNumber = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -96,17 +102,9 @@ namespace Amanat_UIS
             this.stiReportFish = new Stimulsoft.Report.StiReport();
             this.stiReportFishCustom = new Stimulsoft.Report.StiReport();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.GRD_GiveAndTakeDetails = new grd_NewTabArrange();
-            this.col_codeKala = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.baggageName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BaggageCount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.count_Sum = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BaggagePriceID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_dateTime)).BeginInit();
             this.panel3.SuspendLayout();
@@ -114,10 +112,10 @@ namespace Amanat_UIS
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_cache)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GRD_GiveAndTakeDetails)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GRD_TaKen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GRD_GiveAndTakeDetails)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -171,7 +169,6 @@ namespace Amanat_UIS
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel5.Controls.Add(this.pictureBox1);
             this.panel5.Controls.Add(this.TXT_LockerNumber);
             this.panel5.Controls.Add(this.LBL_LockerNumber);
             this.panel5.Location = new System.Drawing.Point(12, 36);
@@ -179,16 +176,6 @@ namespace Amanat_UIS
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(197, 207);
             this.panel5.TabIndex = 82;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Amanat_UIS.Properties.Resources._1393630476_aiga_baggage_lockers;
-            this.pictureBox1.Location = new System.Drawing.Point(166, 1);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(29, 30);
-            this.pictureBox1.TabIndex = 79;
-            this.pictureBox1.TabStop = false;
             // 
             // TXT_LockerNumber
             // 
@@ -205,7 +192,7 @@ namespace Amanat_UIS
             // LBL_LockerNumber
             // 
             this.LBL_LockerNumber.AutoSize = true;
-            this.LBL_LockerNumber.Location = new System.Drawing.Point(60, 6);
+            this.LBL_LockerNumber.Location = new System.Drawing.Point(75, 6);
             this.LBL_LockerNumber.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LBL_LockerNumber.Name = "LBL_LockerNumber";
             this.LBL_LockerNumber.Size = new System.Drawing.Size(115, 29);
@@ -246,7 +233,7 @@ namespace Amanat_UIS
             // LBL_EXPTake
             // 
             this.LBL_EXPTake.AutoSize = true;
-            this.LBL_EXPTake.Location = new System.Drawing.Point(296, 44);
+            this.LBL_EXPTake.Location = new System.Drawing.Point(298, 44);
             this.LBL_EXPTake.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LBL_EXPTake.Name = "LBL_EXPTake";
             this.LBL_EXPTake.Size = new System.Drawing.Size(62, 29);
@@ -257,7 +244,7 @@ namespace Amanat_UIS
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(541, 59);
+            this.label1.Location = new System.Drawing.Point(541, 62);
             this.label1.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 29);
@@ -267,7 +254,7 @@ namespace Amanat_UIS
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(546, 21);
+            this.label2.Location = new System.Drawing.Point(546, 24);
             this.label2.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 29);
@@ -277,7 +264,7 @@ namespace Amanat_UIS
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(245, 59);
+            this.label7.Location = new System.Drawing.Point(245, 64);
             this.label7.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(63, 29);
@@ -297,7 +284,7 @@ namespace Amanat_UIS
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(252, 22);
+            this.label8.Location = new System.Drawing.Point(252, 25);
             this.label8.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(56, 29);
@@ -425,7 +412,7 @@ namespace Amanat_UIS
             // LBL_Person
             // 
             this.LBL_Person.AutoSize = true;
-            this.LBL_Person.Location = new System.Drawing.Point(614, 15);
+            this.LBL_Person.Location = new System.Drawing.Point(614, 14);
             this.LBL_Person.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LBL_Person.Name = "LBL_Person";
             this.LBL_Person.Size = new System.Drawing.Size(45, 29);
@@ -664,15 +651,88 @@ namespace Amanat_UIS
             this.BTN_Clear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BTN_Clear.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_Clear.ForeColor = System.Drawing.Color.Transparent;
-            this.BTN_Clear.Location = new System.Drawing.Point(52, 521);
+            this.BTN_Clear.Location = new System.Drawing.Point(12, 519);
             this.BTN_Clear.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.BTN_Clear.Name = "BTN_Clear";
             this.BTN_Clear.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.BTN_Clear.Size = new System.Drawing.Size(104, 32);
+            this.BTN_Clear.Size = new System.Drawing.Size(230, 58);
             this.BTN_Clear.TabIndex = 8;
             this.BTN_Clear.Text = "انصراف";
             this.BTN_Clear.UseVisualStyleBackColor = true;
             this.BTN_Clear.Click += new System.EventHandler(this.BTN_Clear_Click);
+            // 
+            // GRD_GiveAndTakeDetails
+            // 
+            this.GRD_GiveAndTakeDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.GRD_GiveAndTakeDetails.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.col_codeKala,
+            this.baggageName,
+            this.BaggageCount,
+            this.Price,
+            this.count_Sum,
+            this.BaggagePriceID});
+            this.GRD_GiveAndTakeDetails.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold);
+            this.GRD_GiveAndTakeDetails.Location = new System.Drawing.Point(12, 244);
+            this.GRD_GiveAndTakeDetails.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
+            this.GRD_GiveAndTakeDetails.Name = "GRD_GiveAndTakeDetails";
+            this.GRD_GiveAndTakeDetails.RowHeadersWidth = 51;
+            this.GRD_GiveAndTakeDetails.Size = new System.Drawing.Size(929, 195);
+            this.GRD_GiveAndTakeDetails.TabIndex = 4;
+            this.GRD_GiveAndTakeDetails.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.GRD_GiveAndTakeDetails_CellValueChanged);
+            this.GRD_GiveAndTakeDetails.UserDeletedRow += new System.Windows.Forms.DataGridViewRowEventHandler(this.GRD_GiveAndTakeDetails_UserDeletedRow);
+            this.GRD_GiveAndTakeDetails.Enter += new System.EventHandler(this.GRD_GiveAndTakeDetails_Enter);
+            this.GRD_GiveAndTakeDetails.KeyUp += new System.Windows.Forms.KeyEventHandler(this.GRD_GiveAndTakeDetails_KeyUp);
+            // 
+            // col_codeKala
+            // 
+            this.col_codeKala.DataPropertyName = "baggageCode";
+            this.col_codeKala.HeaderText = "کدکالا";
+            this.col_codeKala.MinimumWidth = 6;
+            this.col_codeKala.Name = "col_codeKala";
+            this.col_codeKala.Width = 150;
+            // 
+            // baggageName
+            // 
+            this.baggageName.DataPropertyName = "baggageName";
+            this.baggageName.HeaderText = "شرح";
+            this.baggageName.MinimumWidth = 6;
+            this.baggageName.Name = "baggageName";
+            this.baggageName.ReadOnly = true;
+            this.baggageName.Width = 230;
+            // 
+            // BaggageCount
+            // 
+            this.BaggageCount.DataPropertyName = "BaggageCount";
+            this.BaggageCount.HeaderText = "تعداد";
+            this.BaggageCount.MinimumWidth = 6;
+            this.BaggageCount.Name = "BaggageCount";
+            this.BaggageCount.Width = 130;
+            // 
+            // Price
+            // 
+            this.Price.DataPropertyName = "Price";
+            this.Price.HeaderText = "مبلغ";
+            this.Price.MinimumWidth = 6;
+            this.Price.Name = "Price";
+            this.Price.ReadOnly = true;
+            this.Price.Width = 165;
+            // 
+            // count_Sum
+            // 
+            this.count_Sum.HeaderText = "مبلغ کل";
+            this.count_Sum.MinimumWidth = 6;
+            this.count_Sum.Name = "count_Sum";
+            this.count_Sum.ReadOnly = true;
+            this.count_Sum.Width = 200;
+            // 
+            // BaggagePriceID
+            // 
+            this.BaggagePriceID.DataPropertyName = "BaggagePriceID";
+            this.BaggagePriceID.HeaderText = "FKBaggagePriceID";
+            this.BaggagePriceID.MinimumWidth = 6;
+            this.BaggagePriceID.Name = "BaggagePriceID";
+            this.BaggagePriceID.Visible = false;
+            this.BaggagePriceID.Width = 125;
             // 
             // LBL_SerialNumber
             // 
@@ -900,79 +960,6 @@ namespace Amanat_UIS
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // GRD_GiveAndTakeDetails
-            // 
-            this.GRD_GiveAndTakeDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.GRD_GiveAndTakeDetails.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.col_codeKala,
-            this.baggageName,
-            this.BaggageCount,
-            this.Price,
-            this.count_Sum,
-            this.BaggagePriceID});
-            this.GRD_GiveAndTakeDetails.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold);
-            this.GRD_GiveAndTakeDetails.Location = new System.Drawing.Point(12, 244);
-            this.GRD_GiveAndTakeDetails.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
-            this.GRD_GiveAndTakeDetails.Name = "GRD_GiveAndTakeDetails";
-            this.GRD_GiveAndTakeDetails.RowHeadersWidth = 51;
-            this.GRD_GiveAndTakeDetails.Size = new System.Drawing.Size(929, 195);
-            this.GRD_GiveAndTakeDetails.TabIndex = 4;
-            this.GRD_GiveAndTakeDetails.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.GRD_GiveAndTakeDetails_CellValueChanged);
-            this.GRD_GiveAndTakeDetails.UserDeletedRow += new System.Windows.Forms.DataGridViewRowEventHandler(this.GRD_GiveAndTakeDetails_UserDeletedRow);
-            this.GRD_GiveAndTakeDetails.Enter += new System.EventHandler(this.GRD_GiveAndTakeDetails_Enter);
-            this.GRD_GiveAndTakeDetails.KeyUp += new System.Windows.Forms.KeyEventHandler(this.GRD_GiveAndTakeDetails_KeyUp);
-            // 
-            // col_codeKala
-            // 
-            this.col_codeKala.DataPropertyName = "baggageCode";
-            this.col_codeKala.HeaderText = "کدکالا";
-            this.col_codeKala.MinimumWidth = 6;
-            this.col_codeKala.Name = "col_codeKala";
-            this.col_codeKala.Width = 150;
-            // 
-            // baggageName
-            // 
-            this.baggageName.DataPropertyName = "baggageName";
-            this.baggageName.HeaderText = "شرح";
-            this.baggageName.MinimumWidth = 6;
-            this.baggageName.Name = "baggageName";
-            this.baggageName.ReadOnly = true;
-            this.baggageName.Width = 200;
-            // 
-            // BaggageCount
-            // 
-            this.BaggageCount.DataPropertyName = "BaggageCount";
-            this.BaggageCount.HeaderText = "تعداد";
-            this.BaggageCount.MinimumWidth = 6;
-            this.BaggageCount.Name = "BaggageCount";
-            this.BaggageCount.Width = 130;
-            // 
-            // Price
-            // 
-            this.Price.DataPropertyName = "Price";
-            this.Price.HeaderText = "مبلغ";
-            this.Price.MinimumWidth = 6;
-            this.Price.Name = "Price";
-            this.Price.ReadOnly = true;
-            this.Price.Width = 160;
-            // 
-            // count_Sum
-            // 
-            this.count_Sum.HeaderText = "مبلغ کل";
-            this.count_Sum.MinimumWidth = 6;
-            this.count_Sum.Name = "count_Sum";
-            this.count_Sum.ReadOnly = true;
-            this.count_Sum.Width = 165;
-            // 
-            // BaggagePriceID
-            // 
-            this.BaggagePriceID.DataPropertyName = "BaggagePriceID";
-            this.BaggagePriceID.HeaderText = "FKBaggagePriceID";
-            this.BaggagePriceID.MinimumWidth = 6;
-            this.BaggagePriceID.Name = "BaggagePriceID";
-            this.BaggagePriceID.Visible = false;
-            this.BaggagePriceID.Width = 125;
-            // 
             // TakeBaggages
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
@@ -996,7 +983,6 @@ namespace Amanat_UIS
             this.tabPage1.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_dateTime)).EndInit();
@@ -1008,10 +994,10 @@ namespace Amanat_UIS
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_cache)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GRD_GiveAndTakeDetails)).EndInit();
             this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.GRD_TaKen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.GRD_GiveAndTakeDetails)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1084,7 +1070,6 @@ namespace Amanat_UIS
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.DataGridViewTextBoxColumn col_codeKala;
         private System.Windows.Forms.DataGridViewTextBoxColumn baggageName;

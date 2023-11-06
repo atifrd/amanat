@@ -75,6 +75,10 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Amanat_BO, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Amanat_BO\bin\Debug\Amanat_BO.dll</HintPath>
+    </Reference>
     <Reference Include="Stimulsoft.Base, Version=2012.1.1213.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
       <Private>True</Private>
     </Reference>
@@ -132,6 +136,9 @@
     </Reference>
     <Reference Include="TelerikCommon, Version=2012.2.608.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
       <Private>True</Private>
+    </Reference>
+    <Reference Include="WinCSS">
+      <HintPath>..\WinCSS\bin\Debug\WinCSS.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -599,16 +606,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Amanat_BO\Amanat_BO.csproj">
-      <Project>{8fd9a63d-820b-47bf-b5f4-85b8bcbf2fc9}</Project>
-      <Name>Amanat_BO</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WinCSS\WinCSS.csproj">
-      <Project>{f18a805d-2a06-4fcb-b863-aacebb47ffe7}</Project>
-      <Name>WinCSS</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

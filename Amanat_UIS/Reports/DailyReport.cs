@@ -21,19 +21,20 @@ namespace Amanat_UIS.Reports
         {
             customizedTheme customizedThemeObj = new customizedTheme();
             customizedThemeObj.FormStyle(this);
-          
+
         }
 
         private void DailyReport_Load(object sender, EventArgs e)
         {
             SetFormStyles();
-            maskedTxtTodate.Text=BLLDate.getPersianDate(System.DateTime.Now,true);
+            maskedTxtTodate.Text = BLLDate.getPersianDate(System.DateTime.Now, true);
             masked_FromDate.Text = BLLDate.getPersianDate(System.DateTime.Now, true);
         }
         DataSet ds;
         private void BTN_Search_Click(object sender, EventArgs e)
         {
-             richTextBoxsts1.Text = ""; richTextBoxsts2.Text = "";
+            Cursor = Cursors.WaitCursor;
+            richTextBoxsts1.Text = ""; richTextBoxsts2.Text = "";
             try
             {
                 ds = Amanat_BO.GiveAndTakes.DailyReport2(BLLDate.getGregorianDate(masked_FromDate.Text.Remove(2, 1).Remove(5, 1)), BLLDate.getGregorianDate(maskedTxtTodate.Text.Remove(2, 1).Remove(5, 1)));
@@ -55,22 +56,26 @@ namespace Amanat_UIS.Reports
 
                 LBL_FSum.Text = Amanat_BO.Helper.GetCurrencyFormat((Convert.ToDecimal(LBL_Sum.Text) + Convert.ToDecimal(LBL_Delay.Text) + Convert.ToDecimal(LBL_Tax.Text) + Convert.ToDecimal(LBL_TaxOnDelay.Text)
                     - Convert.ToDecimal(LBL_Discount.Text) + Convert.ToDecimal(LBL_SumM_Fsum.Text)).ToString());
-                
-                    for (int i = 0; i < ds.Tables[1].Rows.Count; i++)
-			        {
-                        richTextBoxsts1.Text += ds.Tables[1].Rows[i]["SerialNumber"].ToString()+"    ";
-			        }
-                    for (int i = 0; i < ds.Tables[2].Rows.Count; i++)
-                    {
-                        richTextBoxsts2.Text += ds.Tables[2].Rows[i]["SerialNumber"].ToString() + "    ";
-                    }
-                
-             
+
+                for (int i = 0; i < ds.Tables[1].Rows.Count; i++)
+                {
+                    richTextBoxsts1.Text += ds.Tables[1].Rows[i]["SerialNumber"].ToString() + "    ";
+                }
+                for (int i = 0; i < ds.Tables[2].Rows.Count; i++)
+                {
+                    richTextBoxsts2.Text += ds.Tables[2].Rows[i]["SerialNumber"].ToString() + "    ";
+                }
+
+
             }
             catch (Exception ex)
             {
                 Amanat_BO.SysLog.WriteInLogFile(ex.ToString());
                 MessageBox.Show("بروز خطا در انجام عملیات ");
+            }
+            finally
+            {
+                Cursor = Cursors.Default;
             }
         }
 
@@ -78,17 +83,24 @@ namespace Amanat_UIS.Reports
         {
             Amanat_BO.Helper.KeyDownEvent(sender, e);
         }
-        
+
         private void BTN_Print_Click(object sender, EventArgs e)
         {
             //if(ds==null)
             BTN_Search_Click(sender, e);
+            stiReport1.Pages.Items.Select(c => c.UseParentStyles = true);
             Amanat_BO.Helper.SetReportAppearance(stiReport1, this);
             StiPanel MyPanel = ((StiPanel)stiReport1.Pages["Page1"].Components["Panel1"]);
+            stiReport1.Pages["Page1"].Components["Panel1"].UseParentStyles = true;
             StiRichText StiRichTextFirst = (StiRichText)(MyPanel.Components["RichTextFirst"]);
             StiRichText StiRichTextSecond = (StiRichText)(MyPanel.Components["RichTextSecond"]);
             StiRichTextFirst.Text = richTextBoxsts1.Text;
             StiRichTextSecond.Text = richTextBoxsts2.Text;
+            StiRichTextFirst.Width = 10F;
+            StiRichTextSecond.Width = 100F;
+            ((StiPage)stiReport1.Pages["Page1"]).SetFont(new Font("LMN Lotus", 7, FontStyle.Regular));
+            StiRichTextSecond.BackColor = Color.Red;
+            MyPanel.SetFont(new Font("LMN Lotus", 7, FontStyle.Regular));
             
             stiReport1.Compile();//akharin bakhsh
             stiReport1["VFishCnt"] = lbl_FishCount.Text;
@@ -99,9 +111,9 @@ namespace Amanat_UIS.Reports
             stiReport1["VSumDiscount"] = LBL_Discount.Text;
             stiReport1["VSumTax"] = LBL_Tax.Text;
             stiReport1["VFSum"] = LBL_FSum.Text; stiReport1["VSumM_Fsum"] = LBL_SumM_Fsum.Text;
-            stiReport1["From_ToDate"] = label_from.Text+"  "+ masked_FromDate.Text + "  " + label_to.Text + " " + maskedTxtTodate.Text;
+            stiReport1["From_ToDate"] = label_from.Text + "  " + masked_FromDate.Text + "  " + label_to.Text + " " + maskedTxtTodate.Text;
             Amanat_BO.Helper.Print(ds, stiReport1);
-           
+
 
         }
 

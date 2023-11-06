@@ -112,7 +112,7 @@
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(665, 115);
+            this.groupBox1.Size = new System.Drawing.Size(673, 115);
             this.groupBox1.TabIndex = 23;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "شرح اطلاعات";
@@ -598,7 +598,7 @@
             this.baggageName.MinimumWidth = 6;
             this.baggageName.Name = "baggageName";
             this.baggageName.ReadOnly = true;
-            this.baggageName.Width = 165;
+            this.baggageName.Width = 190;
             // 
             // BaggageCount
             // 
@@ -648,7 +648,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(665, 441);
+            this.ClientSize = new System.Drawing.Size(673, 441);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.LBL_FSumBeforDiscount);
             this.Controls.Add(this.groupBox1);

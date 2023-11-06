@@ -71,17 +71,27 @@ E:\My Projects\AMANAT\ASli\Amanat_BO\obj\Debug\Amanat_BO.csproj.AssemblyReferenc
 E:\My Projects\AMANAT\ASli\Amanat_BO\obj\Debug\Amanat_BO.csproj.CoreCompileInputs.cache
 E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Amanat_BO.dll
 E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Amanat_BO.pdb
-E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
-E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
-E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Microsoft.SqlServer.Smo.dll
-E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
 E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Stimulsoft.Base.dll
 E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Stimulsoft.Controls.Win.dll
 E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Stimulsoft.Report.dll
-E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
-E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
-E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
 E:\My Projects\AMANAT\ASli\Amanat_BO\obj\Debug\Amanat_BO.csproj.CopyComplete
 E:\My Projects\AMANAT\ASli\Amanat_BO\obj\Debug\Amanat_BO.dll
 E:\My Projects\AMANAT\ASli\Amanat_BO\obj\Debug\Amanat_BO.pdb
-E:\My Projects\AMANAT\ASli\Amanat_BO\bin\Debug\Stimulsoft.Controls.Win.xml
+C:\ASli\Amanat_BO\obj\Debug\Amanat_BO.csproj.CoreCompileInputs.cache
+C:\ASli\Amanat_BO\obj\Debug\Amanat_BO.csproj.AssemblyReference.cache
+C:\ASli\Amanat_BO\bin\Debug\Amanat_BO.dll
+C:\ASli\Amanat_BO\bin\Debug\Amanat_BO.pdb
+C:\ASli\Amanat_BO\bin\Debug\Stimulsoft.Base.dll
+C:\ASli\Amanat_BO\bin\Debug\Stimulsoft.Controls.dll
+C:\ASli\Amanat_BO\bin\Debug\Stimulsoft.Controls.Win.dll
+C:\ASli\Amanat_BO\bin\Debug\Stimulsoft.Report.dll
+C:\ASli\Amanat_BO\bin\Debug\Stimulsoft.Report.Win.dll
+C:\ASli\Amanat_BO\bin\Debug\Stimulsoft.Controls.pdb
+C:\ASli\Amanat_BO\bin\Debug\Stimulsoft.Controls.xml
+C:\ASli\Amanat_BO\bin\Debug\Stimulsoft.Report.Win.pdb
+C:\ASli\Amanat_BO\bin\Debug\Stimulsoft.Report.Win.xml
+C:\ASli\Amanat_BO\obj\Debug\Amanat_BO.csproj.CopyComplete
+C:\ASli\Amanat_BO\obj\Debug\Amanat_BO.dll
+C:\ASli\Amanat_BO\obj\Debug\Amanat_BO.pdb
+C:\ASli\Amanat_BO\bin\Debug\Stimulsoft.Controls.Win.pdb
+C:\ASli\Amanat_BO\bin\Debug\Stimulsoft.Controls.Win.xml

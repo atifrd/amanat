@@ -538,7 +538,7 @@
             this.col_codeKala.HeaderText = "کدکالا";
             this.col_codeKala.MinimumWidth = 6;
             this.col_codeKala.Name = "col_codeKala";
-            this.col_codeKala.Width = 140;
+            this.col_codeKala.Width = 150;
             // 
             // baggageName
             // 
@@ -547,7 +547,7 @@
             this.baggageName.MinimumWidth = 6;
             this.baggageName.Name = "baggageName";
             this.baggageName.ReadOnly = true;
-            this.baggageName.Width = 160;
+            this.baggageName.Width = 250;
             // 
             // BaggageCount
             // 
@@ -555,7 +555,6 @@
             this.BaggageCount.HeaderText = "تعداد";
             this.BaggageCount.MinimumWidth = 6;
             this.BaggageCount.Name = "BaggageCount";
-            this.BaggageCount.Width = 90;
             // 
             // Price
             // 
@@ -564,7 +563,7 @@
             this.Price.MinimumWidth = 6;
             this.Price.Name = "Price";
             this.Price.ReadOnly = true;
-            this.Price.Width = 165;
+            this.Price.Width = 200;
             // 
             // count_Sum
             // 
@@ -573,7 +572,7 @@
             this.count_Sum.MinimumWidth = 6;
             this.count_Sum.Name = "count_Sum";
             this.count_Sum.ReadOnly = true;
-            this.count_Sum.Width = 165;
+            this.count_Sum.Width = 200;
             // 
             // BaggagePriceID
             // 

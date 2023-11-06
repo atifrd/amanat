@@ -96,21 +96,30 @@ namespace Amanat_BO
         }
         public static void Print(DataSet ds, StiReport StiReportobj)
         {
-            StiReportobj.Dictionary.DataSources.Items[0].DataTable = ds.Tables[0];
+            try
+            {
+                StiReportobj.Dictionary.DataSources.Items[0].DataTable = ds.Tables[0];
 
-            StiReportobj.RegData("Datasource1", ds.Tables[0]);
+                StiReportobj.RegData("Datasource1", ds.Tables[0]);
 
-            StiReportobj.Dictionary.Synchronize();
-            StiReportobj.Render();
-            // StiReportobj.Show();
-            var parr = StiReportobj.Pages;
-            //Create Printer Settings
-            PrinterSettings printerSettings = new PrinterSettings();
-            printerSettings.Copies = 1;
-            printerSettings.FromPage = 1;
-            printerSettings.ToPage = StiReportobj.RenderedPages.Count;
-            //Direct Print - Don't Show Print Dialog
-            StiReportobj.Print(true, printerSettings);
+                StiReportobj.Dictionary.Synchronize();
+                StiReportobj.Render();
+                //  StiReportobj.Show();
+                var parr = StiReportobj.Pages;
+                //Create Printer Settings
+                PrinterSettings printerSettings = new PrinterSettings();
+                printerSettings.Copies = 1;
+                printerSettings.FromPage = 1;
+                printerSettings.ToPage = StiReportobj.RenderedPages.Count;
+                //Direct Print - Don't Show Print Dialog
+                StiReportobj.Print(true, printerSettings);
+            }
+            catch (Exception ex)
+            {
+
+               
+            }
+           
         }
 
         public static void FishPrint(DataTable dt, StiReport StiReportobj)
