@@ -137,6 +137,11 @@
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
+        <member name="P:Stimulsoft.Report.Win.Images.StiRibbonViewerUserControlOffice2013Resource.BigZoomOnePage">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
         <member name="P:Stimulsoft.Report.Win.Images.StiRibbonViewerUserControlOffice2013Resource.Bookmarks">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
@@ -1455,6 +1460,11 @@
             </summary>
         </member>
         <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowBookmarksPanel">
+            <summary>
+            Gets or sets value indicates show bookmarks panel or no.
+            </summary>
+        </member>
+        <member name="P:Stimulsoft.Report.Viewer.StiViewerControl.ShowParametersButton">
             <summary>
             Gets or sets value indicates show bookmarks panel or no.
             </summary>
