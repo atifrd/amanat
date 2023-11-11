@@ -87,22 +87,35 @@ namespace Amanat_UIS.Reports
         private void BTN_Print_Click(object sender, EventArgs e)
         {
             //if(ds==null)
-            BTN_Search_Click(sender, e);
-            stiReport1.Pages.Items.Select(c => c.UseParentStyles = true);
+            BTN_Search_Click(sender, e);           
             Amanat_BO.Helper.SetReportAppearance(stiReport1, this);
-            StiPanel MyPanel = ((StiPanel)stiReport1.Pages["Page1"].Components["Panel1"]);
-            stiReport1.Pages["Page1"].Components["Panel1"].UseParentStyles = true;
-            StiRichText StiRichTextFirst = (StiRichText)(MyPanel.Components["RichTextFirst"]);
-            StiRichText StiRichTextSecond = (StiRichText)(MyPanel.Components["RichTextSecond"]);
-            StiRichTextFirst.Text = richTextBoxsts1.Text;
-            StiRichTextSecond.Text = richTextBoxsts2.Text;
-            StiRichTextFirst.Width = 10F;
-            StiRichTextSecond.Width = 100F;
-            ((StiPage)stiReport1.Pages["Page1"]).SetFont(new Font("LMN Lotus", 7, FontStyle.Regular));
-            StiRichTextSecond.BackColor = Color.Red;
-            MyPanel.SetFont(new Font("LMN Lotus", 7, FontStyle.Regular));
+          //  StiPanel MyPanel = ((StiPanel)stiReport1.Pages["Page1"].Components["Panel1"]);
+           
+         
+            StiText TextLong = (StiText)(stiReport1.GetComponentByName("TextLong"));
+            TextLong.Text = richTextBoxsts1.Text;
             
+            StiText TextLong2 = stiReport1.GetComponentByName("TextLong2") as StiText;
+            TextLong2.Text = richTextBoxsts2.Text;
+
+            //StiRichTextFirst.Margins.Left = 3;
+            //StiRichTextSecond.Margins.Left = 3;
+
+
+
+            //foreach (var item in MyPanel.Components)
+            //{               
+
+            //    if (item.GetType().Name == typeof(StiText).Name)
+            //    {
+            //        ((StiText)item).Font = (new Font("LMN Lotus", 9, FontStyle.Regular));
+            //        ((StiText)item).AutoWidth = true;
+            //    }
+            //}
+
+
             stiReport1.Compile();//akharin bakhsh
+                       
             stiReport1["VFishCnt"] = lbl_FishCount.Text;
             stiReport1["VMinSerial"] = LBL_FromFishNum.Text;
             stiReport1["VMaxSerial"] = LBL_ToFishNum.Text;

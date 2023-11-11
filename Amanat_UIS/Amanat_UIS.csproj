@@ -75,30 +75,58 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Amanat_BO, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="LibExcel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2017.2.4\lib\net40\LibExcel.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Base, Version=2017.2.4.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Amanat_BO\bin\Debug\Amanat_BO.dll</HintPath>
+      <HintPath>..\..\Users\Arash\Downloads\New folder\Stimulsoft.Reports.v2017.2.4_p30download.com\Stimulsoft Reports-Pack\Designers\.NET\Stimulsoft.Base.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Base, Version=2012.1.1213.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Stimulsoft.Controls, Version=2012.1.1213.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+    <Reference Include="Stimulsoft.Controls, Version=2017.2.4.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\learning\WinForm\Stimulsoft.Reports.Net.2012.02.23\Stimulsoft+Reports.Net+2012.02.23\Stimulsoft.Controls.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\Users\Arash\Downloads\New folder\Stimulsoft.Reports.v2017.2.4_p30download.com\Stimulsoft Reports-Pack\Designers\.NET\Stimulsoft.Controls.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Controls.Win, Version=2012.1.1213.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+    <Reference Include="Stimulsoft.Controls.Win, Version=2017.2.4.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\learning\WinForm\Stimulsoft.Reports.Net.2012.02.23\Stimulsoft+Reports.Net+2012.02.23\Stimulsoft.Controls.Win.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\Users\Arash\Downloads\New folder\Stimulsoft.Reports.v2017.2.4_p30download.com\Stimulsoft Reports-Pack\Designers\.NET\Stimulsoft.Controls.Win.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Report, Version=2012.1.1213.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Stimulsoft.Report.Win, Version=2012.1.1213.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+    <Reference Include="Stimulsoft.Database, Version=2017.2.4.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\learning\WinForm\Stimulsoft.Reports.Net.2012.02.23\Stimulsoft+Reports.Net+2012.02.23\Stimulsoft.Report.Win.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\Users\Arash\Downloads\New folder\Stimulsoft.Reports.v2017.2.4_p30download.com\Stimulsoft Reports-Pack\Designers\.NET\Stimulsoft.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Design">
+      <HintPath>..\..\Users\Arash\Downloads\New folder\Stimulsoft.Reports.v2017.2.4_p30download.com\Stimulsoft Reports-Pack\Libs\Net\Stimulsoft.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Editor, Version=2017.2.4.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Users\Arash\Downloads\New folder\Stimulsoft.Reports.v2017.2.4_p30download.com\Stimulsoft Reports-Pack\Designers\.NET\Stimulsoft.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report, Version=2017.2.4.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Users\Arash\Downloads\New folder\Stimulsoft.Reports.v2017.2.4_p30download.com\Stimulsoft Reports-Pack\Designers\.NET\Stimulsoft.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Check, Version=2017.2.4.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Users\Arash\Downloads\New folder\Stimulsoft.Reports.v2017.2.4_p30download.com\Stimulsoft Reports-Pack\Designers\.NET\Stimulsoft.Report.Check.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Design, Version=2017.2.4.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Users\Arash\Downloads\New folder\Stimulsoft.Reports.v2017.2.4_p30download.com\Stimulsoft Reports-Pack\Designers\.NET\Stimulsoft.Report.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Helper, Version=2017.2.4.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Users\Arash\Downloads\New folder\Stimulsoft.Reports.v2017.2.4_p30download.com\Stimulsoft Reports-Pack\Designers\.NET\Stimulsoft.Report.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Web, Version=2017.2.4.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Users\Arash\Downloads\New folder\Stimulsoft.Reports.v2017.2.4_p30download.com\Stimulsoft Reports-Pack\Designers\.NET\Stimulsoft.Report.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Win, Version=2017.2.4.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Users\Arash\Downloads\New folder\Stimulsoft.Reports.v2017.2.4_p30download.com\Stimulsoft Reports-Pack\Designers\.NET\Stimulsoft.Report.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="Svg, Version=2.2.1.39233, Culture=neutral, PublicKeyToken=12a0bac221edeae2, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Reports.Net.2017.2.4\lib\net40\Svg.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Private>False</Private>
@@ -487,6 +515,7 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="bin\Debug\Amanat_UIS.exe.config" />
+    <None Include="packages.config" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -520,6 +549,45 @@
     <None Include="Resources\ACP_PDF%25202_file_document32.png" />
     <Content Include="bin\Debug\Amanat_UIS.exe" />
     <Content Include="bin\Debug\Amanat_UIS.pdb" />
+    <Content Include="Localization\ar.xml" />
+    <Content Include="Localization\be.xml" />
+    <Content Include="Localization\bg.xml" />
+    <Content Include="Localization\ca-ES.xml" />
+    <Content Include="Localization\cs.xml" />
+    <Content Include="Localization\de.ext.xml" />
+    <Content Include="Localization\de.xml" />
+    <Content Include="Localization\el-GR.xml" />
+    <Content Include="Localization\en-GB.xml" />
+    <Content Include="Localization\en.ext.xml" />
+    <Content Include="Localization\en.xml" />
+    <Content Include="Localization\es.xml" />
+    <Content Include="Localization\eu-ES.xml" />
+    <Content Include="Localization\fa.xml" />
+    <Content Include="Localization\fr.ext.xml" />
+    <Content Include="Localization\fr.xml" />
+    <Content Include="Localization\gl-ES.xml" />
+    <Content Include="Localization\hr.xml" />
+    <Content Include="Localization\hu.xml" />
+    <Content Include="Localization\id.xml" />
+    <Content Include="Localization\it.xml" />
+    <Content Include="Localization\ka.xml" />
+    <Content Include="Localization\Lt-sr-SP.xml" />
+    <Content Include="Localization\lt.xml" />
+    <Content Include="Localization\nb-NO.xml" />
+    <Content Include="Localization\nl.xml" />
+    <Content Include="Localization\pl.xml" />
+    <Content Include="Localization\pt-BR.xml" />
+    <Content Include="Localization\pt.xml" />
+    <Content Include="Localization\ro.xml" />
+    <Content Include="Localization\ru.ext.xml" />
+    <Content Include="Localization\ru.xml" />
+    <Content Include="Localization\sk.xml" />
+    <Content Include="Localization\sv.ext.xml" />
+    <Content Include="Localization\sv.xml" />
+    <Content Include="Localization\tr.xml" />
+    <Content Include="Localization\uk.xml" />
+    <Content Include="Localization\zh-CHS.xml" />
+    <Content Include="Localization\zh-CHT.xml" />
     <Content Include="Resources\1393630476_aiga_baggage_lockers.png" />
     <Content Include="Resources\Actions-arrow-left-icon1.png" />
     <Content Include="Resources\Actions-arrow-right-icon1.png" />
@@ -606,6 +674,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Amanat_BO\Amanat_BO.csproj">
+      <Project>{8fd9a63d-820b-47bf-b5f4-85b8bcbf2fc9}</Project>
+      <Name>Amanat_BO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

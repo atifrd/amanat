@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(annual));
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn10 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn11 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn12 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn1 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn2 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn3 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.BTN_Print = new WinCSS.SaveButton();
             this.masked_ToDate = new System.Windows.Forms.MaskedTextBox();
@@ -40,10 +40,10 @@
             this.masked_FromDate = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radGRD_Monthly = new Telerik.WinControls.UI.RadGridView();
-            this.stiReportAnnualReport = new Stimulsoft.Report.StiReport();
             this.label_SumMoney = new System.Windows.Forms.Label();
             this.label_Sum = new System.Windows.Forms.Label();
+            this.radGRD_Monthly = new Telerik.WinControls.UI.RadGridView();
+            this.stiReportAnnualReport = new Stimulsoft.Report.StiReport();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.radGRD_Monthly)).BeginInit();
@@ -92,7 +92,7 @@
             this.masked_ToDate.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.masked_ToDate.Mask = "00 /00 /1000";
             this.masked_ToDate.Name = "masked_ToDate";
-            this.masked_ToDate.Size = new System.Drawing.Size(116, 30);
+            this.masked_ToDate.Size = new System.Drawing.Size(116, 36);
             this.masked_ToDate.TabIndex = 1;
             // 
             // label2
@@ -101,7 +101,7 @@
             this.label2.Location = new System.Drawing.Point(138, 19);
             this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 22);
+            this.label2.Size = new System.Drawing.Size(74, 29);
             this.label2.TabIndex = 63;
             this.label2.Text = "تا تاریخ";
             // 
@@ -130,7 +130,7 @@
             this.masked_FromDate.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.masked_FromDate.Mask = "00 /00 /1000";
             this.masked_FromDate.Name = "masked_FromDate";
-            this.masked_FromDate.Size = new System.Drawing.Size(116, 30);
+            this.masked_FromDate.Size = new System.Drawing.Size(116, 36);
             this.masked_FromDate.TabIndex = 0;
             // 
             // label1
@@ -139,7 +139,7 @@
             this.label1.Location = new System.Drawing.Point(389, 19);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 22);
+            this.label1.Size = new System.Drawing.Size(79, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "از تاریخ";
             // 
@@ -158,6 +158,24 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "گزارش خلاصه کارکرد سالانه به تفکیک ماه";
             // 
+            // label_SumMoney
+            // 
+            this.label_SumMoney.AutoSize = true;
+            this.label_SumMoney.Location = new System.Drawing.Point(216, 29);
+            this.label_SumMoney.Name = "label_SumMoney";
+            this.label_SumMoney.Size = new System.Drawing.Size(25, 29);
+            this.label_SumMoney.TabIndex = 7;
+            this.label_SumMoney.Text = "0";
+            // 
+            // label_Sum
+            // 
+            this.label_Sum.AutoSize = true;
+            this.label_Sum.Location = new System.Drawing.Point(378, 29);
+            this.label_Sum.Name = "label_Sum";
+            this.label_Sum.Size = new System.Drawing.Size(88, 29);
+            this.label_Sum.TabIndex = 6;
+            this.label_Sum.Text = "جمع کل :";
+            // 
             // radGRD_Monthly
             // 
             this.radGRD_Monthly.BackColor = System.Drawing.SystemColors.ControlLightLight;
@@ -166,32 +184,32 @@
             // 
             // radGRD_Monthly
             // 
-            gridViewTextBoxColumn10.FieldName = "RowNumber";
-            gridViewTextBoxColumn10.FormatString = "";
-            gridViewTextBoxColumn10.HeaderText = "ردیف";
-            gridViewTextBoxColumn10.Name = "RowNumber";
-            gridViewTextBoxColumn10.Width = 100;
-            gridViewTextBoxColumn11.FieldName = "Mydate";
-            gridViewTextBoxColumn11.FormatString = "";
-            gridViewTextBoxColumn11.HeaderText = "تاریخ";
-            gridViewTextBoxColumn11.Name = "Mydate";
-            gridViewTextBoxColumn11.Width = 150;
-            gridViewTextBoxColumn12.FieldName = "realSum";
-            gridViewTextBoxColumn12.FormatString = "";
-            gridViewTextBoxColumn12.HeaderText = "مبلغ کارکرد";
-            gridViewTextBoxColumn12.Name = "realSum";
-            gridViewTextBoxColumn12.Width = 180;
+            gridViewTextBoxColumn1.FieldName = "RowNumber";
+            gridViewTextBoxColumn1.FormatString = "";
+            gridViewTextBoxColumn1.HeaderText = "ردیف";
+            gridViewTextBoxColumn1.Name = "RowNumber";
+            gridViewTextBoxColumn1.Width = 100;
+            gridViewTextBoxColumn2.FieldName = "Mydate";
+            gridViewTextBoxColumn2.FormatString = "";
+            gridViewTextBoxColumn2.HeaderText = "تاریخ";
+            gridViewTextBoxColumn2.Name = "Mydate";
+            gridViewTextBoxColumn2.Width = 150;
+            gridViewTextBoxColumn3.FieldName = "realSum";
+            gridViewTextBoxColumn3.FormatString = "";
+            gridViewTextBoxColumn3.HeaderText = "مبلغ کارکرد";
+            gridViewTextBoxColumn3.Name = "realSum";
+            gridViewTextBoxColumn3.Width = 180;
             this.radGRD_Monthly.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewTextBoxColumn10,
-            gridViewTextBoxColumn11,
-            gridViewTextBoxColumn12});
+            gridViewTextBoxColumn1,
+            gridViewTextBoxColumn2,
+            gridViewTextBoxColumn3});
             this.radGRD_Monthly.Name = "radGRD_Monthly";
             // 
             // 
             // 
             this.radGRD_Monthly.RootElement.AccessibleDescription = null;
             this.radGRD_Monthly.RootElement.AccessibleName = null;
-            this.radGRD_Monthly.RootElement.ControlBounds = new System.Drawing.Rectangle(0, 0, 240, 150);
+            this.radGRD_Monthly.RootElement.ControlBounds = new System.Drawing.Rectangle(6, 57, 240, 150);
             this.radGRD_Monthly.Size = new System.Drawing.Size(450, 355);
             this.radGRD_Monthly.TabIndex = 2;
             this.radGRD_Monthly.Text = "radGridView1";
@@ -199,6 +217,7 @@
             // 
             // stiReportAnnualReport
             // 
+            this.stiReportAnnualReport.CookieContainer = null;
             this.stiReportAnnualReport.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV2;
             this.stiReportAnnualReport.ReferencedAssemblies = new string[] {
         "System.Dll",
@@ -211,33 +230,16 @@
         "Stimulsoft.Report.Dll"};
             this.stiReportAnnualReport.ReportAlias = "Report";
             this.stiReportAnnualReport.ReportGuid = "c64e1550a60c48498165aa8cd529b14e";
+            this.stiReportAnnualReport.ReportImage = null;
             this.stiReportAnnualReport.ReportName = "Report";
             this.stiReportAnnualReport.ReportSource = resources.GetString("stiReportAnnualReport.ReportSource");
             this.stiReportAnnualReport.ReportUnit = Stimulsoft.Report.StiReportUnitType.Centimeters;
             this.stiReportAnnualReport.ScriptLanguage = Stimulsoft.Report.StiReportLanguageType.CSharp;
             this.stiReportAnnualReport.UseProgressInThread = false;
             // 
-            // label_SumMoney
-            // 
-            this.label_SumMoney.AutoSize = true;
-            this.label_SumMoney.Location = new System.Drawing.Point(216, 29);
-            this.label_SumMoney.Name = "label_SumMoney";
-            this.label_SumMoney.Size = new System.Drawing.Size(20, 22);
-            this.label_SumMoney.TabIndex = 7;
-            this.label_SumMoney.Text = "0";
-            // 
-            // label_Sum
-            // 
-            this.label_Sum.AutoSize = true;
-            this.label_Sum.Location = new System.Drawing.Point(378, 29);
-            this.label_Sum.Name = "label_Sum";
-            this.label_Sum.Size = new System.Drawing.Size(72, 22);
-            this.label_Sum.TabIndex = 6;
-            this.label_Sum.Text = "جمع کل :";
-            // 
             // annual
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(462, 510);
             this.Controls.Add(this.groupBox2);
