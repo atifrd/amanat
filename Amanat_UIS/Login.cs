@@ -19,8 +19,8 @@ namespace Amanat_UIS
 
         private void btnLoggin_Click(object sender, EventArgs e)
         {
-            if (DateTime.Now > DateTime.Parse("2023/11/23"))
-                return;
+            //if (DateTime.Now > DateTime.Parse("2023/11/23"))
+            //    return;
 
             this.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             UTF8Encoding encoder = new UTF8Encoding();

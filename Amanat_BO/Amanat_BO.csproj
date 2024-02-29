@@ -56,24 +56,25 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files (x86)\Microsoft SQL Server\100\SDK\Assemblies\Microsoft.SqlServer.SmoExtended.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Base">
-      <HintPath>..\Amanat_UIS\bin\Debug\Stimulsoft.Base.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Controls, Version=2012.1.1213.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+    <Reference Include="Stimulsoft.Base, Version=2017.1.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\learning\WinForm\Stimulsoft.Reports.Net.2012.02.23\Stimulsoft+Reports.Net+2012.02.23\Stimulsoft.Controls.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\Users\Arash\Downloads\New folder\Stimulsoft Reports-Pack\Libs\Net\Stimulsoft.Base.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Controls.Win">
-      <HintPath>..\Amanat_UIS\bin\Debug\Stimulsoft.Controls.Win.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Report">
-      <HintPath>..\Amanat_UIS\bin\Debug\Stimulsoft.Report.dll</HintPath>
-    </Reference>
-    <Reference Include="Stimulsoft.Report.Win, Version=2012.1.1213.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+    <Reference Include="Stimulsoft.Controls, Version=2017.1.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\learning\WinForm\Stimulsoft.Reports.Net.2012.02.23\Stimulsoft+Reports.Net+2012.02.23\Stimulsoft.Report.Win.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\Users\Arash\Downloads\New folder\Stimulsoft Reports-Pack\Libs\Net\Stimulsoft.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Controls.Win, Version=2017.1.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Users\Arash\Downloads\New folder\Stimulsoft Reports-Pack\Libs\Net\Stimulsoft.Controls.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report, Version=2017.1.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Users\Arash\Downloads\New folder\Stimulsoft Reports-Pack\Libs\Net\Stimulsoft.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Win, Version=2017.1.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Users\Arash\Downloads\New folder\Stimulsoft Reports-Pack\Libs\Net\Stimulsoft.Report.Win.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />

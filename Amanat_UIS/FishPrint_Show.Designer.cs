@@ -55,13 +55,6 @@
             this.LBL_EXPTake = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.GRD_GiveAndTakeDetails = new System.Windows.Forms.DataGridView();
-            this.TXT_Discount = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.LBL_SUM = new System.Windows.Forms.Label();
-            this.LBL_User = new System.Windows.Forms.Label();
-            this.BTN_Print = new WinCSS.SaveButton();
-            this.stiReportFishCustom = new Stimulsoft.Report.StiReport();
             this.col_codeKala = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.baggageName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BaggageCount = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -69,6 +62,13 @@
             this.MySum = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TakeBackDelayPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.GiveAndTakeDetailsId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TXT_Discount = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.LBL_SUM = new System.Windows.Forms.Label();
+            this.LBL_User = new System.Windows.Forms.Label();
+            this.BTN_Print = new WinCSS.SaveButton();
+            this.stiReportFishCustom = new Stimulsoft.Report.StiReport();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GRD_GiveAndTakeDetails)).BeginInit();
@@ -375,6 +375,67 @@
             this.GRD_GiveAndTakeDetails.Size = new System.Drawing.Size(945, 164);
             this.GRD_GiveAndTakeDetails.TabIndex = 66;
             // 
+            // col_codeKala
+            // 
+            this.col_codeKala.DataPropertyName = "baggageCode";
+            this.col_codeKala.HeaderText = "کدکالا";
+            this.col_codeKala.MinimumWidth = 6;
+            this.col_codeKala.Name = "col_codeKala";
+            this.col_codeKala.Width = 125;
+            // 
+            // baggageName
+            // 
+            this.baggageName.DataPropertyName = "baggageName";
+            this.baggageName.HeaderText = "شرح";
+            this.baggageName.MinimumWidth = 6;
+            this.baggageName.Name = "baggageName";
+            this.baggageName.ReadOnly = true;
+            this.baggageName.Width = 245;
+            // 
+            // BaggageCount
+            // 
+            this.BaggageCount.DataPropertyName = "BaggageCount";
+            this.BaggageCount.HeaderText = "تعداد";
+            this.BaggageCount.MinimumWidth = 6;
+            this.BaggageCount.Name = "BaggageCount";
+            this.BaggageCount.Width = 160;
+            // 
+            // Price
+            // 
+            this.Price.DataPropertyName = "Price";
+            this.Price.HeaderText = "مبلغ";
+            this.Price.MinimumWidth = 6;
+            this.Price.Name = "Price";
+            this.Price.ReadOnly = true;
+            this.Price.Width = 180;
+            // 
+            // MySum
+            // 
+            this.MySum.DataPropertyName = "MySum";
+            this.MySum.HeaderText = "مبلغ کل";
+            this.MySum.MinimumWidth = 6;
+            this.MySum.Name = "MySum";
+            this.MySum.ReadOnly = true;
+            this.MySum.Width = 180;
+            // 
+            // TakeBackDelayPrice
+            // 
+            this.TakeBackDelayPrice.DataPropertyName = "TakeBackDelayPrice";
+            this.TakeBackDelayPrice.HeaderText = "TakeBackDelayPrice";
+            this.TakeBackDelayPrice.MinimumWidth = 6;
+            this.TakeBackDelayPrice.Name = "TakeBackDelayPrice";
+            this.TakeBackDelayPrice.Visible = false;
+            this.TakeBackDelayPrice.Width = 125;
+            // 
+            // GiveAndTakeDetailsId
+            // 
+            this.GiveAndTakeDetailsId.DataPropertyName = "GiveAndTakeDetailsId";
+            this.GiveAndTakeDetailsId.HeaderText = "GiveAndTakeDetailsId";
+            this.GiveAndTakeDetailsId.MinimumWidth = 6;
+            this.GiveAndTakeDetailsId.Name = "GiveAndTakeDetailsId";
+            this.GiveAndTakeDetailsId.Visible = false;
+            this.GiveAndTakeDetailsId.Width = 125;
+            // 
             // TXT_Discount
             // 
             this.TXT_Discount.Location = new System.Drawing.Point(713, 362);
@@ -453,6 +514,7 @@
             // 
             // stiReportFishCustom
             // 
+            this.stiReportFishCustom.CookieContainer = null;
             this.stiReportFishCustom.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV2;
             this.stiReportFishCustom.ReferencedAssemblies = new string[] {
         "System.Dll",
@@ -466,72 +528,12 @@
         "Amanat_BO.Dll"};
             this.stiReportFishCustom.ReportAlias = "Report";
             this.stiReportFishCustom.ReportGuid = "c8d2fefa88e648c09b8f90c6d80c37e6";
+            this.stiReportFishCustom.ReportImage = null;
             this.stiReportFishCustom.ReportName = "Report";
             this.stiReportFishCustom.ReportSource = resources.GetString("stiReportFishCustom.ReportSource");
             this.stiReportFishCustom.ReportUnit = Stimulsoft.Report.StiReportUnitType.Centimeters;
             this.stiReportFishCustom.ScriptLanguage = Stimulsoft.Report.StiReportLanguageType.CSharp;
             this.stiReportFishCustom.UseProgressInThread = false;
-            // 
-            // col_codeKala
-            // 
-            this.col_codeKala.DataPropertyName = "baggageCode";
-            this.col_codeKala.HeaderText = "کدکالا";
-            this.col_codeKala.MinimumWidth = 6;
-            this.col_codeKala.Name = "col_codeKala";
-            this.col_codeKala.Width = 125;
-            // 
-            // baggageName
-            // 
-            this.baggageName.DataPropertyName = "baggageName";
-            this.baggageName.HeaderText = "شرح";
-            this.baggageName.MinimumWidth = 6;
-            this.baggageName.Name = "baggageName";
-            this.baggageName.ReadOnly = true;
-            this.baggageName.Width = 245;
-            // 
-            // BaggageCount
-            // 
-            this.BaggageCount.DataPropertyName = "BaggageCount";
-            this.BaggageCount.HeaderText = "تعداد";
-            this.BaggageCount.MinimumWidth = 6;
-            this.BaggageCount.Name = "BaggageCount";
-            this.BaggageCount.Width = 160;
-            // 
-            // Price
-            // 
-            this.Price.DataPropertyName = "Price";
-            this.Price.HeaderText = "مبلغ";
-            this.Price.MinimumWidth = 6;
-            this.Price.Name = "Price";
-            this.Price.ReadOnly = true;
-            this.Price.Width = 180;
-            // 
-            // MySum
-            // 
-            this.MySum.DataPropertyName = "MySum";
-            this.MySum.HeaderText = "مبلغ کل";
-            this.MySum.MinimumWidth = 6;
-            this.MySum.Name = "MySum";
-            this.MySum.ReadOnly = true;
-            this.MySum.Width = 180;
-            // 
-            // TakeBackDelayPrice
-            // 
-            this.TakeBackDelayPrice.DataPropertyName = "TakeBackDelayPrice";
-            this.TakeBackDelayPrice.HeaderText = "TakeBackDelayPrice";
-            this.TakeBackDelayPrice.MinimumWidth = 6;
-            this.TakeBackDelayPrice.Name = "TakeBackDelayPrice";
-            this.TakeBackDelayPrice.Visible = false;
-            this.TakeBackDelayPrice.Width = 125;
-            // 
-            // GiveAndTakeDetailsId
-            // 
-            this.GiveAndTakeDetailsId.DataPropertyName = "GiveAndTakeDetailsId";
-            this.GiveAndTakeDetailsId.HeaderText = "GiveAndTakeDetailsId";
-            this.GiveAndTakeDetailsId.MinimumWidth = 6;
-            this.GiveAndTakeDetailsId.Name = "GiveAndTakeDetailsId";
-            this.GiveAndTakeDetailsId.Visible = false;
-            this.GiveAndTakeDetailsId.Width = 125;
             // 
             // FishPrint_Show
             // 

@@ -203,7 +203,7 @@
             this.LBL_SumM_Fsum.AutoSize = true;
             this.LBL_SumM_Fsum.Font = new System.Drawing.Font("LMN Zar", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_SumM_Fsum.ForeColor = System.Drawing.Color.DarkGreen;
-            this.LBL_SumM_Fsum.Location = new System.Drawing.Point(310, 128);
+            this.LBL_SumM_Fsum.Location = new System.Drawing.Point(310, 131);
             this.LBL_SumM_Fsum.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.LBL_SumM_Fsum.Name = "LBL_SumM_Fsum";
             this.LBL_SumM_Fsum.Size = new System.Drawing.Size(24, 35);
@@ -213,7 +213,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(666, 129);
+            this.label1.Location = new System.Drawing.Point(666, 132);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(88, 31);
@@ -225,7 +225,7 @@
             this.LBL_TaxOnDelay.AutoSize = true;
             this.LBL_TaxOnDelay.Font = new System.Drawing.Font("LMN Zar", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_TaxOnDelay.ForeColor = System.Drawing.Color.DarkGreen;
-            this.LBL_TaxOnDelay.Location = new System.Drawing.Point(310, 176);
+            this.LBL_TaxOnDelay.Location = new System.Drawing.Point(310, 181);
             this.LBL_TaxOnDelay.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.LBL_TaxOnDelay.Name = "LBL_TaxOnDelay";
             this.LBL_TaxOnDelay.Size = new System.Drawing.Size(24, 35);
@@ -236,7 +236,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(506, 176);
+            this.label12.Location = new System.Drawing.Point(506, 180);
             this.label12.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(295, 31);
@@ -248,7 +248,7 @@
             this.LBL_Tax.AutoSize = true;
             this.LBL_Tax.Font = new System.Drawing.Font("LMN Zar", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_Tax.ForeColor = System.Drawing.Color.DarkGreen;
-            this.LBL_Tax.Location = new System.Drawing.Point(310, 150);
+            this.LBL_Tax.Location = new System.Drawing.Point(310, 155);
             this.LBL_Tax.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.LBL_Tax.Name = "LBL_Tax";
             this.LBL_Tax.Size = new System.Drawing.Size(24, 35);
@@ -258,7 +258,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(559, 150);
+            this.label10.Location = new System.Drawing.Point(559, 154);
             this.label10.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(229, 31);
@@ -269,7 +269,7 @@
             // 
             this.richTextBoxsts2.BackColor = System.Drawing.Color.Silver;
             this.richTextBoxsts2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBoxsts2.Location = new System.Drawing.Point(13, 403);
+            this.richTextBoxsts2.Location = new System.Drawing.Point(13, 406);
             this.richTextBoxsts2.Margin = new System.Windows.Forms.Padding(5);
             this.richTextBoxsts2.Name = "richTextBoxsts2";
             this.richTextBoxsts2.ReadOnly = true;
@@ -283,7 +283,7 @@
             this.richTextBoxsts1.BackColor = System.Drawing.Color.Silver;
             this.richTextBoxsts1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBoxsts1.ForeColor = System.Drawing.Color.DarkGreen;
-            this.richTextBoxsts1.Location = new System.Drawing.Point(13, 250);
+            this.richTextBoxsts1.Location = new System.Drawing.Point(13, 255);
             this.richTextBoxsts1.Margin = new System.Windows.Forms.Padding(5);
             this.richTextBoxsts1.Name = "richTextBoxsts1";
             this.richTextBoxsts1.ReadOnly = true;
@@ -295,7 +295,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(402, 377);
+            this.label17.Location = new System.Drawing.Point(402, 381);
             this.label17.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(403, 31);
@@ -307,7 +307,7 @@
             this.LBL_FSum.AutoSize = true;
             this.LBL_FSum.Font = new System.Drawing.Font("LMN Zar", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_FSum.ForeColor = System.Drawing.Color.DarkGreen;
-            this.LBL_FSum.Location = new System.Drawing.Point(310, 197);
+            this.LBL_FSum.Location = new System.Drawing.Point(310, 206);
             this.LBL_FSum.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.LBL_FSum.Name = "LBL_FSum";
             this.LBL_FSum.Size = new System.Drawing.Size(24, 35);
@@ -319,7 +319,7 @@
             this.LBL_Discount.AutoSize = true;
             this.LBL_Discount.Font = new System.Drawing.Font("LMN Zar", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_Discount.ForeColor = System.Drawing.Color.DarkGreen;
-            this.LBL_Discount.Location = new System.Drawing.Point(310, 105);
+            this.LBL_Discount.Location = new System.Drawing.Point(310, 107);
             this.LBL_Discount.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.LBL_Discount.Name = "LBL_Discount";
             this.LBL_Discount.Size = new System.Drawing.Size(24, 35);
@@ -331,7 +331,7 @@
             this.LBL_Delay.AutoSize = true;
             this.LBL_Delay.Font = new System.Drawing.Font("LMN Zar", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_Delay.ForeColor = System.Drawing.Color.DarkGreen;
-            this.LBL_Delay.Location = new System.Drawing.Point(310, 81);
+            this.LBL_Delay.Location = new System.Drawing.Point(310, 82);
             this.LBL_Delay.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.LBL_Delay.Name = "LBL_Delay";
             this.LBL_Delay.Size = new System.Drawing.Size(24, 35);
@@ -343,7 +343,7 @@
             this.LBL_Sum.AutoSize = true;
             this.LBL_Sum.Font = new System.Drawing.Font("LMN Zar", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_Sum.ForeColor = System.Drawing.Color.DarkGreen;
-            this.LBL_Sum.Location = new System.Drawing.Point(310, 57);
+            this.LBL_Sum.Location = new System.Drawing.Point(310, 58);
             this.LBL_Sum.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.LBL_Sum.Name = "LBL_Sum";
             this.LBL_Sum.Size = new System.Drawing.Size(24, 35);
@@ -389,7 +389,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(462, 224);
+            this.label9.Location = new System.Drawing.Point(462, 230);
             this.label9.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(341, 31);
@@ -399,7 +399,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(640, 197);
+            this.label8.Location = new System.Drawing.Point(640, 205);
             this.label8.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(127, 31);
@@ -410,7 +410,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("LMN Zar", 12F);
-            this.label7.Location = new System.Drawing.Point(656, 105);
+            this.label7.Location = new System.Drawing.Point(656, 107);
             this.label7.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(100, 31);
@@ -420,7 +420,7 @@
             // LBL_
             // 
             this.LBL_.AutoSize = true;
-            this.LBL_.Location = new System.Drawing.Point(678, 81);
+            this.LBL_.Location = new System.Drawing.Point(678, 82);
             this.LBL_.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.LBL_.Name = "LBL_";
             this.LBL_.Size = new System.Drawing.Size(75, 31);
@@ -430,7 +430,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(600, 57);
+            this.label5.Location = new System.Drawing.Point(600, 58);
             this.label5.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(175, 31);

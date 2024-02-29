@@ -64,7 +64,7 @@ namespace Amanat_BO
 
                 StiFooterBand stfooterBand1 = ((StiFooterBand)StiReportobj.Pages["Page1"].Components["FooterBand1"]);
                 Text1 = ((StiText)stfooterBand1.Components["Text1"]);//{{VPrintTxt} {VOfficeTell}}
-                Text1.Font = new Font("LMN Lotus", 6, FontStyle.Regular);//توضیحات پایین فیش     
+                Text1.Font = new Font("LMN Lotus", 7, FontStyle.Regular);//توضیحات پایین فیش     
             }
             catch (Exception)
             {//marboot be gozareshat
@@ -77,7 +77,8 @@ namespace Amanat_BO
             finally
             {
                 TextDate.Text = "    تاریخ چاپ  " + "  " + BLLDate.getPersianDate(System.DateTime.Now, false); TextDate.AutoWidth = true;
-                TextTime.Text = System.DateTime.Now.TimeOfDay.ToString().Substring(0, 5) + "   " + "زمان چاپ " + "   "; TextTime.AutoWidth = true;
+                TextTime.Text = System.DateTime.Now.TimeOfDay.ToString().Substring(0, 5) + "   " + "زمان چاپ " + "   "; 
+                TextTime.AutoWidth = true;
                 TextUser.AutoWidth = true;
                 TextUser.Text = "تهیه کننده :" + "  " + Amanat_BO.UserSettings.Name;
                 TextUser.Font = TextDate.Font = TextTime.Font = new Font("LMN Lotus", 7, FontStyle.Regular);
@@ -104,7 +105,7 @@ namespace Amanat_BO
 
                 StiReportobj.Dictionary.Synchronize();
                 StiReportobj.Render();
-                //  StiReportobj.Show();
+                StiReportobj.Show();
                 var parr = StiReportobj.Pages;
                 //Create Printer Settings
                 PrinterSettings printerSettings = new PrinterSettings();
@@ -193,7 +194,7 @@ namespace Amanat_BO
                 TextGiVeDate.Font = TextBackDate.Font = TextBackTime.Font = TextGiveTime.Font =
                 new Font("LMN Lotus", 9, FontStyle.Regular);
 
-            TextSerial.Font = new Font("LMN Lotus", 10, FontStyle.Bold);
+            TextSerial.Font = new Font("LMN Zar", 13, FontStyle.Bold);
 
 
             StiDataBand stdata = ((StiDataBand)StiReportobj.Pages["Page1"].Components["DataDSDetails2"]);

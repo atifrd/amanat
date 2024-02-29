@@ -738,7 +738,7 @@ namespace Amanat_UIS
             // 
             this.LBL_SerialNumber.AutoSize = true;
             this.LBL_SerialNumber.Font = new System.Drawing.Font("Times New Roman", 16F, System.Drawing.FontStyle.Bold);
-            this.LBL_SerialNumber.Location = new System.Drawing.Point(766, 9);
+            this.LBL_SerialNumber.Location = new System.Drawing.Point(766, 6);
             this.LBL_SerialNumber.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.LBL_SerialNumber.Name = "LBL_SerialNumber";
             this.LBL_SerialNumber.Size = new System.Drawing.Size(28, 31);
@@ -916,6 +916,7 @@ namespace Amanat_UIS
             // 
             // stiReportFish
             // 
+            this.stiReportFish.CookieContainer = null;
             this.stiReportFish.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV2;
             this.stiReportFish.ReferencedAssemblies = new string[] {
         "System.Dll",
@@ -929,6 +930,7 @@ namespace Amanat_UIS
         "Amanat_BO.Dll"};
             this.stiReportFish.ReportAlias = "Report";
             this.stiReportFish.ReportGuid = "044329b22aae4230a3a99012312078df";
+            this.stiReportFish.ReportImage = null;
             this.stiReportFish.ReportName = "Report";
             this.stiReportFish.ReportSource = resources.GetString("stiReportFish.ReportSource");
             this.stiReportFish.ReportUnit = Stimulsoft.Report.StiReportUnitType.Centimeters;
@@ -937,6 +939,7 @@ namespace Amanat_UIS
             // 
             // stiReportFishCustom
             // 
+            this.stiReportFishCustom.CookieContainer = null;
             this.stiReportFishCustom.EngineVersion = Stimulsoft.Report.Engine.StiEngineVersion.EngineV2;
             this.stiReportFishCustom.ReferencedAssemblies = new string[] {
         "System.Dll",
@@ -950,6 +953,7 @@ namespace Amanat_UIS
         "Amanat_BO.Dll"};
             this.stiReportFishCustom.ReportAlias = "Report";
             this.stiReportFishCustom.ReportGuid = "c8d2fefa88e648c09b8f90c6d80c37e6";
+            this.stiReportFishCustom.ReportImage = null;
             this.stiReportFishCustom.ReportName = "Report";
             this.stiReportFishCustom.ReportSource = resources.GetString("stiReportFishCustom.ReportSource");
             this.stiReportFishCustom.ReportUnit = Stimulsoft.Report.StiReportUnitType.Centimeters;
